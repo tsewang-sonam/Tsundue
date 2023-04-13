@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8998C3529E88FDF006005A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C3429E88FDF006005A8 /* AppDelegate.swift */; };
+		E8998C3729E88FDF006005A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C3629E88FDF006005A8 /* SceneDelegate.swift */; };
+		E8998C3929E88FDF006005A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C3829E88FDF006005A8 /* ViewController.swift */; };
+		E8998C3C29E88FDF006005A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8998C3A29E88FDF006005A8 /* Main.storyboard */; };
+		E8998C3E29E88FE1006005A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8998C3D29E88FE1006005A8 /* Assets.xcassets */; };
+		E8998C4129E88FE1006005A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8998C3F29E88FE1006005A8 /* LaunchScreen.storyboard */; };
+		E8998C4C29E88FE2006005A8 /* mockappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C4B29E88FE2006005A8 /* mockappTests.swift */; };
+		E8998C5629E88FE2006005A8 /* mockappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C5529E88FE2006005A8 /* mockappUITests.swift */; };
+		E8998C5829E88FE2006005A8 /* mockappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C5729E88FE2006005A8 /* mockappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8998C4829E88FE2006005A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8998C2929E88FDF006005A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8998C3029E88FDF006005A8;
+			remoteInfo = mockapp;
+		};
+		E8998C5229E88FE2006005A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8998C2929E88FDF006005A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8998C3029E88FDF006005A8;
+			remoteInfo = mockapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8998C3129E88FDF006005A8 /* mockapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mockapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8998C3429E88FDF006005A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8998C3629E88FDF006005A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E8998C3829E88FDF006005A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8998C3B29E88FDF006005A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8998C3D29E88FE1006005A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8998C4029E88FE1006005A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8998C4229E88FE1006005A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8998C4729E88FE2006005A8 /* mockappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mockappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8998C4B29E88FE2006005A8 /* mockappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mockappTests.swift; sourceTree = "<group>"; };
+		E8998C5129E88FE2006005A8 /* mockappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mockappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8998C5529E88FE2006005A8 /* mockappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mockappUITests.swift; sourceTree = "<group>"; };
+		E8998C5729E88FE2006005A8 /* mockappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mockappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8998C2E29E88FDF006005A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8998C4429E88FE2006005A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8998C4E29E88FE2006005A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8998C2829E88FDF006005A8 = {
+			isa = PBXGroup;
+			children = (
+				E8998C3329E88FDF006005A8 /* mockapp */,
+				E8998C4A29E88FE2006005A8 /* mockappTests */,
+				E8998C5429E88FE2006005A8 /* mockappUITests */,
+				E8998C3229E88FDF006005A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8998C3229E88FDF006005A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8998C3129E88FDF006005A8 /* mockapp.app */,
+				E8998C4729E88FE2006005A8 /* mockappTests.xctest */,
+				E8998C5129E88FE2006005A8 /* mockappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8998C3329E88FDF006005A8 /* mockapp */ = {
+			isa = PBXGroup;
+			children = (
+				E8998C3429E88FDF006005A8 /* AppDelegate.swift */,
+				E8998C3629E88FDF006005A8 /* SceneDelegate.swift */,
+				E8998C3829E88FDF006005A8 /* ViewController.swift */,
+				E8998C3A29E88FDF006005A8 /* Main.storyboard */,
+				E8998C3D29E88FE1006005A8 /* Assets.xcassets */,
+				E8998C3F29E88FE1006005A8 /* LaunchScreen.storyboard */,
+				E8998C4229E88FE1006005A8 /* Info.plist */,
+			);
+			path = mockapp;
+			sourceTree = "<group>";
+		};
+		E8998C4A29E88FE2006005A8 /* mockappTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8998C4B29E88FE2006005A8 /* mockappTests.swift */,
+			);
+			path = mockappTests;
+			sourceTree = "<group>";
+		};
+		E8998C5429E88FE2006005A8 /* mockappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8998C5529E88FE2006005A8 /* mockappUITests.swift */,
+				E8998C5729E88FE2006005A8 /* mockappUITestsLaunchTests.swift */,
+			);
+			path = mockappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8998C3029E88FDF006005A8 /* mockapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8998C5B29E88FE2006005A8 /* Build configuration list for PBXNativeTarget "mockapp" */;
+			buildPhases = (
+				E8998C2D29E88FDF006005A8 /* Sources */,
+				E8998C2E29E88FDF006005A8 /* Frameworks */,
+				E8998C2F29E88FDF006005A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mockapp;
+			productName = mockapp;
+			productReference = E8998C3129E88FDF006005A8 /* mockapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8998C4629E88FE2006005A8 /* mockappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8998C5E29E88FE2006005A8 /* Build configuration list for PBXNativeTarget "mockappTests" */;
+			buildPhases = (
+				E8998C4329E88FE2006005A8 /* Sources */,
+				E8998C4429E88FE2006005A8 /* Frameworks */,
+				E8998C4529E88FE2006005A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8998C4929E88FE2006005A8 /* PBXTargetDependency */,
+			);
+			name = mockappTests;
+			productName = mockappTests;
+			productReference = E8998C4729E88FE2006005A8 /* mockappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8998C5029E88FE2006005A8 /* mockappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8998C6129E88FE2006005A8 /* Build configuration list for PBXNativeTarget "mockappUITests" */;
+			buildPhases = (
+				E8998C4D29E88FE2006005A8 /* Sources */,
+				E8998C4E29E88FE2006005A8 /* Frameworks */,
+				E8998C4F29E88FE2006005A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8998C5329E88FE2006005A8 /* PBXTargetDependency */,
+			);
+			name = mockappUITests;
+			productName = mockappUITests;
+			productReference = E8998C5129E88FE2006005A8 /* mockappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8998C2929E88FDF006005A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E8998C3029E88FDF006005A8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E8998C4629E88FE2006005A8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E8998C3029E88FDF006005A8;
+					};
+					E8998C5029E88FE2006005A8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E8998C3029E88FDF006005A8;
+					};
+				};
+			};
+			buildConfigurationList = E8998C2C29E88FDF006005A8 /* Build configuration list for PBXProject "mockapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8998C2829E88FDF006005A8;
+			productRefGroup = E8998C3229E88FDF006005A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8998C3029E88FDF006005A8 /* mockapp */,
+				E8998C4629E88FE2006005A8 /* mockappTests */,
+				E8998C5029E88FE2006005A8 /* mockappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8998C2F29E88FDF006005A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8998C4129E88FE1006005A8 /* LaunchScreen.storyboard in Resources */,
+				E8998C3E29E88FE1006005A8 /* Assets.xcassets in Resources */,
+				E8998C3C29E88FDF006005A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8998C4529E88FE2006005A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8998C4F29E88FE2006005A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8998C2D29E88FDF006005A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8998C3929E88FDF006005A8 /* ViewController.swift in Sources */,
+				E8998C3529E88FDF006005A8 /* AppDelegate.swift in Sources */,
+				E8998C3729E88FDF006005A8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8998C4329E88FE2006005A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8998C4C29E88FE2006005A8 /* mockappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8998C4D29E88FE2006005A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8998C5829E88FE2006005A8 /* mockappUITestsLaunchTests.swift in Sources */,
+				E8998C5629E88FE2006005A8 /* mockappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8998C4929E88FE2006005A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8998C3029E88FDF006005A8 /* mockapp */;
+			targetProxy = E8998C4829E88FE2006005A8 /* PBXContainerItemProxy */;
+		};
+		E8998C5329E88FE2006005A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8998C3029E88FDF006005A8 /* mockapp */;
+			targetProxy = E8998C5229E88FE2006005A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8998C3A29E88FDF006005A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8998C3B29E88FDF006005A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8998C3F29E88FE1006005A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8998C4029E88FE1006005A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8998C5929E88FE2006005A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8998C5A29E88FE2006005A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8998C5C29E88FE2006005A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55NHF8AGR6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mockapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonam.mockapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8998C5D29E88FE2006005A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55NHF8AGR6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mockapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonam.mockapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8998C5F29E88FE2006005A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55NHF8AGR6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonam.mockappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mockapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mockapp";
+			};
+			name = Debug;
+		};
+		E8998C6029E88FE2006005A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55NHF8AGR6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonam.mockappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mockapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mockapp";
+			};
+			name = Release;
+		};
+		E8998C6229E88FE2006005A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55NHF8AGR6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonam.mockappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mockapp;
+			};
+			name = Debug;
+		};
+		E8998C6329E88FE2006005A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55NHF8AGR6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonam.mockappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mockapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8998C2C29E88FDF006005A8 /* Build configuration list for PBXProject "mockapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8998C5929E88FE2006005A8 /* Debug */,
+				E8998C5A29E88FE2006005A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8998C5B29E88FE2006005A8 /* Build configuration list for PBXNativeTarget "mockapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8998C5C29E88FE2006005A8 /* Debug */,
+				E8998C5D29E88FE2006005A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8998C5E29E88FE2006005A8 /* Build configuration list for PBXNativeTarget "mockappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8998C5F29E88FE2006005A8 /* Debug */,
+				E8998C6029E88FE2006005A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8998C6129E88FE2006005A8 /* Build configuration list for PBXNativeTarget "mockappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8998C6229E88FE2006005A8 /* Debug */,
+				E8998C6329E88FE2006005A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8998C2929E88FDF006005A8 /* Project object */;
+}
