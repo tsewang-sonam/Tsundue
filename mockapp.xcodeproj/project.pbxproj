@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E887E73D29F86A6A00FB1AD8 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E887E73C29F86A6A00FB1AD8 /* Lottie */; };
+		E887E73F29F86A8700FB1AD8 /* 113796-alienufo-reading-book-animation.json in Resources */ = {isa = PBXBuildFile; fileRef = E887E73E29F86A8700FB1AD8 /* 113796-alienufo-reading-book-animation.json */; };
 		E8998C3529E88FDF006005A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C3429E88FDF006005A8 /* AppDelegate.swift */; };
 		E8998C3729E88FDF006005A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C3629E88FDF006005A8 /* SceneDelegate.swift */; };
 		E8998C3929E88FDF006005A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C3829E88FDF006005A8 /* ViewController.swift */; };
@@ -16,6 +18,10 @@
 		E8998C4C29E88FE2006005A8 /* mockappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C4B29E88FE2006005A8 /* mockappTests.swift */; };
 		E8998C5629E88FE2006005A8 /* mockappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C5529E88FE2006005A8 /* mockappUITests.swift */; };
 		E8998C5829E88FE2006005A8 /* mockappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C5729E88FE2006005A8 /* mockappUITestsLaunchTests.swift */; };
+		E8998C6729E8A31A006005A8 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C6629E8A31A006005A8 /* StoryViewController.swift */; };
+		E8998C6B29E8AC1D006005A8 /* StoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C6A29E8AC1D006005A8 /* StoryTableViewController.swift */; };
+		E8998C6D29E8B9CD006005A8 /* ReadStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C6C29E8B9CD006005A8 /* ReadStoryViewController.swift */; };
+		E8BE0FE529FB4E8F00E9E2F7 /* Story.txt in Resources */ = {isa = PBXBuildFile; fileRef = E8BE0FE429FB4E8E00E9E2F7 /* Story.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E887E73E29F86A8700FB1AD8 /* 113796-alienufo-reading-book-animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "113796-alienufo-reading-book-animation.json"; sourceTree = "<group>"; };
 		E8998C3129E88FDF006005A8 /* mockapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mockapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8998C3429E88FDF006005A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8998C3629E88FDF006005A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,10 @@
 		E8998C5129E88FE2006005A8 /* mockappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mockappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8998C5529E88FE2006005A8 /* mockappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mockappUITests.swift; sourceTree = "<group>"; };
 		E8998C5729E88FE2006005A8 /* mockappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mockappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E8998C6629E8A31A006005A8 /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
+		E8998C6A29E8AC1D006005A8 /* StoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTableViewController.swift; sourceTree = "<group>"; };
+		E8998C6C29E8B9CD006005A8 /* ReadStoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadStoryViewController.swift; sourceTree = "<group>"; };
+		E8BE0FE429FB4E8E00E9E2F7 /* Story.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Story.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E887E73D29F86A6A00FB1AD8 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,10 +114,13 @@
 				E8998C3429E88FDF006005A8 /* AppDelegate.swift */,
 				E8998C3629E88FDF006005A8 /* SceneDelegate.swift */,
 				E8998C3829E88FDF006005A8 /* ViewController.swift */,
+				E8D69D8529EA28D200239CCD /* story */,
 				E8998C3A29E88FDF006005A8 /* Main.storyboard */,
+				E8BE0FE429FB4E8E00E9E2F7 /* Story.txt */,
 				E8998C3D29E88FE1006005A8 /* Assets.xcassets */,
 				E8998C3F29E88FE1006005A8 /* LaunchScreen.storyboard */,
 				E8998C4229E88FE1006005A8 /* Info.plist */,
+				E887E73E29F86A8700FB1AD8 /* 113796-alienufo-reading-book-animation.json */,
 			);
 			path = mockapp;
 			sourceTree = "<group>";
@@ -127,6 +142,16 @@
 			path = mockappUITests;
 			sourceTree = "<group>";
 		};
+		E8D69D8529EA28D200239CCD /* story */ = {
+			isa = PBXGroup;
+			children = (
+				E8998C6629E8A31A006005A8 /* StoryViewController.swift */,
+				E8998C6C29E8B9CD006005A8 /* ReadStoryViewController.swift */,
+				E8998C6A29E8AC1D006005A8 /* StoryTableViewController.swift */,
+			);
+			path = story;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +168,9 @@
 			dependencies = (
 			);
 			name = mockapp;
+			packageProductDependencies = (
+				E887E73C29F86A6A00FB1AD8 /* Lottie */,
+			);
 			productName = mockapp;
 			productReference = E8998C3129E88FDF006005A8 /* mockapp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +243,9 @@
 				Base,
 			);
 			mainGroup = E8998C2829E88FDF006005A8;
+			packageReferences = (
+				E887E73B29F86A6900FB1AD8 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
 			productRefGroup = E8998C3229E88FDF006005A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8998C4129E88FE1006005A8 /* LaunchScreen.storyboard in Resources */,
+				E8BE0FE529FB4E8F00E9E2F7 /* Story.txt in Resources */,
 				E8998C3E29E88FE1006005A8 /* Assets.xcassets in Resources */,
+				E887E73F29F86A8700FB1AD8 /* 113796-alienufo-reading-book-animation.json in Resources */,
 				E8998C3C29E88FDF006005A8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8998C6B29E8AC1D006005A8 /* StoryTableViewController.swift in Sources */,
+				E8998C6729E8A31A006005A8 /* StoryViewController.swift in Sources */,
+				E8998C6D29E8B9CD006005A8 /* ReadStoryViewController.swift in Sources */,
 				E8998C3929E88FDF006005A8 /* ViewController.swift in Sources */,
 				E8998C3529E88FDF006005A8 /* AppDelegate.swift in Sources */,
 				E8998C3729E88FDF006005A8 /* SceneDelegate.swift in Sources */,
@@ -602,6 +638,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E887E73B29F86A6900FB1AD8 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E887E73C29F86A6A00FB1AD8 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E887E73B29F86A6900FB1AD8 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E8998C2929E88FDF006005A8 /* Project object */;
 }
