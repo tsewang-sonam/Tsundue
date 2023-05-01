@@ -1,0 +1,47 @@
+apple n
+dog ཁྱི་
+cat ཞི་མི་
+mouse ཙི་ཙི་
+house ཁང་པ་
+hat ཞ་མོ་
+Ant གྲོག་མ་
+Antelope
+Bat  ཙི་ཙི་ལྒང་པོ་
+Bear དོམ་
+Bird བྱ་
+Butterfly 
+Caterpillar 
+Chicken 
+Cow བ་ཕྱུགས་
+Dolphin 
+Donkey བོང་བུ་ 
+Eagle བྱ་གླག་
+Elephant གླང་ཆེན་
+Fish ཉ་
+Fly སྦྲང་བུ་ 
+Fox ཝ་མོ་
+Frog སྦལ་པ
+Goose 
+Gorilla 
+Bee 
+Shark 
+Horse རྟ་
+Jackal 
+Jellyfish 
+Kangaroo 
+Penguin 
+Leopard གཟིག་
+Scorpion སྡིག་པ་ར་རྩ་
+Snake སྦྲུལ་
+Swan 
+Turkey 
+Wolf སྤྱང་ཀི་
+Zebra 
+Lion སེང་གེ་
+Crab 
+Monkey སྤྲིའུ་
+Sparrow 
+Parrot 
+Pig ཕག་པ་
+Boar 
+ 

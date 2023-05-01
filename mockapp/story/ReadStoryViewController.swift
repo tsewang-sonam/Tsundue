@@ -17,12 +17,12 @@ class ReadStoryViewController: UIViewController {
             
             image.image = UIImage(named: "pg\(count + 1)")
             storyWords.text = tenSentences[count].description
-            
+            countLabel.text = "Page : " + String(count + 1) + " / 4"
         } else {
             do {
              //   animationLottie()
                 storyWords.text = "End of Story"
-                count = 3
+                count = 4
             }
         }
     }
@@ -31,6 +31,7 @@ class ReadStoryViewController: UIViewController {
             count = count - 1
             image.image = UIImage(named: "pg\(count+1)")
             storyWords.text = tenSentences[count].description
+            countLabel.text = "Page : " + String(count + 1) + " / 4"
         }else {
             do {
                 //   animationLottie()
@@ -65,7 +66,8 @@ class ReadStoryViewController: UIViewController {
             // Do any additional setup after loading the view.
             extractFromFile(word: "Story1")
             storyWords.text = tenSentences.first
-            storyWords.text = "heeeee"
+            countLabel.text = "Page : " + String(count + 1) + " / 4"
+           // storyWords.text = "heeeee"
             image.image = UIImage(named: "pg1")
         }
         

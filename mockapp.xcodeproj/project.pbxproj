@@ -21,6 +21,9 @@
 		E8998C6729E8A31A006005A8 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C6629E8A31A006005A8 /* StoryViewController.swift */; };
 		E8998C6B29E8AC1D006005A8 /* StoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C6A29E8AC1D006005A8 /* StoryTableViewController.swift */; };
 		E8998C6D29E8B9CD006005A8 /* ReadStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C6C29E8B9CD006005A8 /* ReadStoryViewController.swift */; };
+		E89F795C29FC353200AB972F /* dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = E89F795B29FC353200AB972F /* dictionary.txt */; };
+		E89F795E29FC391300AB972F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89F795D29FC391300AB972F /* SearchViewController.swift */; };
+		E89F796029FC3B4700AB972F /* PictureCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89F795F29FC3B4700AB972F /* PictureCollectionView.swift */; };
 		E8BE0FE529FB4E8F00E9E2F7 /* Story.txt in Resources */ = {isa = PBXBuildFile; fileRef = E8BE0FE429FB4E8E00E9E2F7 /* Story.txt */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +62,9 @@
 		E8998C6629E8A31A006005A8 /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
 		E8998C6A29E8AC1D006005A8 /* StoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTableViewController.swift; sourceTree = "<group>"; };
 		E8998C6C29E8B9CD006005A8 /* ReadStoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadStoryViewController.swift; sourceTree = "<group>"; };
+		E89F795B29FC353200AB972F /* dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dictionary.txt; sourceTree = "<group>"; };
+		E89F795D29FC391300AB972F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E89F795F29FC3B4700AB972F /* PictureCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCollectionView.swift; sourceTree = "<group>"; };
 		E8BE0FE429FB4E8E00E9E2F7 /* Story.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Story.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,7 +122,10 @@
 				E8998C3829E88FDF006005A8 /* ViewController.swift */,
 				E8D69D8529EA28D200239CCD /* story */,
 				E8998C3A29E88FDF006005A8 /* Main.storyboard */,
+				E89F795D29FC391300AB972F /* SearchViewController.swift */,
+				E89F795F29FC3B4700AB972F /* PictureCollectionView.swift */,
 				E8BE0FE429FB4E8E00E9E2F7 /* Story.txt */,
+				E89F795B29FC353200AB972F /* dictionary.txt */,
 				E8998C3D29E88FE1006005A8 /* Assets.xcassets */,
 				E8998C3F29E88FE1006005A8 /* LaunchScreen.storyboard */,
 				E8998C4229E88FE1006005A8 /* Info.plist */,
@@ -262,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E89F795C29FC353200AB972F /* dictionary.txt in Resources */,
 				E8998C4129E88FE1006005A8 /* LaunchScreen.storyboard in Resources */,
 				E8BE0FE529FB4E8F00E9E2F7 /* Story.txt in Resources */,
 				E8998C3E29E88FE1006005A8 /* Assets.xcassets in Resources */,
@@ -292,6 +302,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8998C6B29E8AC1D006005A8 /* StoryTableViewController.swift in Sources */,
+				E89F796029FC3B4700AB972F /* PictureCollectionView.swift in Sources */,
+				E89F795E29FC391300AB972F /* SearchViewController.swift in Sources */,
 				E8998C6729E8A31A006005A8 /* StoryViewController.swift in Sources */,
 				E8998C6D29E8B9CD006005A8 /* ReadStoryViewController.swift in Sources */,
 				E8998C3929E88FDF006005A8 /* ViewController.swift in Sources */,
