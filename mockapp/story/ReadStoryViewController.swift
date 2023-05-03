@@ -20,7 +20,7 @@ class ReadStoryViewController: UIViewController {
             countLabel.text = "Page : " + String(count + 1) + " / 4"
         } else {
             do {
-             //   animationLottie()
+             //  animationLottie()
                 storyWords.text = "End of Story"
                 count = 4
             }
@@ -48,13 +48,6 @@ class ReadStoryViewController: UIViewController {
     
    // var item : [ShortStory]?
    
-    
-    
-    
-   
-    
- 
-        
        // var cellName: String?
         
         override func viewDidLoad() {

@@ -16,20 +16,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ABJ-lo-Pup" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="30" y="353" width="158" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.69352954629999997" green="0.86940485239999998" blue="0.91373538970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzF-Hb-gys">
                                 <rect key="frame" x="30" y="353" width="158" height="145"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="145" id="14Z-fz-67A"/>
+                                    <constraint firstAttribute="height" constant="145" id="Xrt-MM-veO"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Story">
-                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="storyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dCa-TM-Pjl"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aG5-cT-IDu" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="218" y="353" width="145" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.69352954629999997" green="0.86940485239999998" blue="0.91373538970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8pT-XG-Gew">
                                 <rect key="frame" x="218" y="353" width="145" height="145"/>
                                 <constraints>
@@ -37,29 +44,33 @@
                                     <constraint firstAttribute="height" constant="145" id="kIy-NL-THn"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Search">
-                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
-                                    <color key="baseBackgroundColor" systemColor="systemGreenColor"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="searchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u9c-nX-mkc"/>
                                     <segue destination="CK1-jA-a01" kind="show" id="ifl-R7-Coc"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eKK-rH-zcp" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="30" y="531" width="158" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.69352954629999997" green="0.86940485239999998" blue="0.91373538970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWl-le-Fxz">
                                 <rect key="frame" x="30" y="531" width="158" height="145"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="145" id="0K6-UW-VZG"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Vocabulary">
-                                    <color key="baseForegroundColor" systemColor="systemBackgroundColor"/>
-                                    <color key="baseBackgroundColor" systemColor="systemBlueColor"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="vocabularyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tZi-OQ-mJL"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YaE-sE-pAb" customClass="LottieAnimationView" customModule="Lottie">
+                                <rect key="frame" x="218" y="528" width="145" height="145"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.6488606333732605" green="0.87321555614471436" blue="0.92340070009231567" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0Y-63-g9V">
                                 <rect key="frame" x="218" y="528" width="145" height="145"/>
                                 <constraints>
@@ -67,17 +78,21 @@
                                     <constraint firstAttribute="width" constant="145" id="jcd-um-0m4"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Quiz">
-                                    <color key="baseForegroundColor" systemColor="secondarySystemBackgroundColor"/>
-                                    <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="quizButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iyv-k5-h4J"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Story" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5tB-5X-8UL">
+                                <rect key="frame" x="30" y="331" width="158" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="linkColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.89411764705882346" green="0.94901960784313721" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="8pT-XG-Gew" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="250" id="8Zg-xD-bbp"/>
@@ -95,10 +110,16 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="Aox-kn-58n"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="quizTop" destination="YaE-sE-pAb" id="V3z-Ft-aIU"/>
+                        <outlet property="searchTop" destination="aG5-cT-IDu" id="3Eb-ud-v3m"/>
+                        <outlet property="storyTop" destination="ABJ-lo-Pup" id="d05-eX-LP4"/>
+                        <outlet property="vocabularyTop" destination="eKK-rH-zcp" id="zBL-BL-hCG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1055.7251908396945" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="1052.6717557251909" y="3.5211267605633805"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="lSp-Ly-9rS">
@@ -108,15 +129,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="odI-fk-Gs4">
-                                <rect key="frame" x="160" y="173" width="73" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter word" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="odI-fk-Gs4">
+                                <rect key="frame" x="132" y="173" width="128" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmx-IB-yk8">
                                 <rect key="frame" x="164" y="237" width="65" height="35"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Enter"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Enter">
+                                    <color key="baseForegroundColor" systemColor="systemBlueColor"/>
+                                    <color key="baseBackgroundColor" red="0.89411764705882346" green="0.94901960784313721" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="enterPressed:" destination="CK1-jA-a01" eventType="touchUpInside" id="GJk-xb-F4e"/>
                                 </connections>
@@ -132,17 +156,17 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4ov-4Q-uF5"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="odI-fk-Gs4" firstAttribute="top" secondItem="4ov-4Q-uF5" secondAttribute="top" constant="70" id="5jh-96-tur"/>
-                            <constraint firstItem="4ov-4Q-uF5" firstAttribute="trailing" secondItem="odI-fk-Gs4" secondAttribute="trailing" constant="160" id="KUi-WW-rwy"/>
+                            <constraint firstItem="odI-fk-Gs4" firstAttribute="leading" secondItem="4ov-4Q-uF5" secondAttribute="leading" constant="132" id="LUM-Ij-OPv"/>
+                            <constraint firstItem="4ov-4Q-uF5" firstAttribute="trailing" secondItem="odI-fk-Gs4" secondAttribute="trailing" constant="133" id="VDf-ob-kJ3"/>
                             <constraint firstItem="sMI-YH-dW9" firstAttribute="top" secondItem="dmx-IB-yk8" secondAttribute="bottom" constant="50" id="Xcx-rw-gM2"/>
                             <constraint firstItem="4ov-4Q-uF5" firstAttribute="trailing" secondItem="sMI-YH-dW9" secondAttribute="trailing" constant="20" id="YKD-NU-Jq1"/>
                             <constraint firstItem="4ov-4Q-uF5" firstAttribute="trailing" secondItem="dmx-IB-yk8" secondAttribute="trailing" constant="164" id="ZiJ-Gx-Nmx"/>
                             <constraint firstItem="dmx-IB-yk8" firstAttribute="top" secondItem="odI-fk-Gs4" secondAttribute="bottom" constant="30" id="n2g-2y-hdU"/>
                             <constraint firstItem="dmx-IB-yk8" firstAttribute="leading" secondItem="4ov-4Q-uF5" secondAttribute="leading" constant="164" id="pTR-b6-rJS"/>
                             <constraint firstItem="sMI-YH-dW9" firstAttribute="leading" secondItem="4ov-4Q-uF5" secondAttribute="leading" constant="20" id="rpc-R9-C6j"/>
-                            <constraint firstItem="odI-fk-Gs4" firstAttribute="leading" secondItem="4ov-4Q-uF5" secondAttribute="leading" constant="160" id="vwU-ZJ-Up2"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hVq-X3-FMO"/>
@@ -153,7 +177,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rGX-6q-JID" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1052.6717557251909" y="793.66197183098598"/>
+            <point key="canvasLocation" x="1876" y="-756"/>
         </scene>
         <!--Story View Controller-->
         <scene sceneID="ZPV-5I-Gqj">
@@ -169,7 +193,10 @@
                                     <constraint firstAttribute="width" constant="200" id="OXS-X3-u3f"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Short"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Short">
+                                    <color key="baseForegroundColor" systemColor="systemBlueColor"/>
+                                    <color key="baseBackgroundColor" red="0.89411764705882346" green="0.94901960784313721" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="shortStoryButton:" destination="RML-ao-bvA" eventType="touchUpInside" id="gcE-x8-AWP"/>
                                 </connections>
@@ -180,7 +207,10 @@
                                     <constraint firstAttribute="width" constant="200" id="K3H-SJ-qAG"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Long"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Long">
+                                    <color key="baseForegroundColor" systemColor="systemBlueColor"/>
+                                    <color key="baseBackgroundColor" red="0.89411764705882346" green="0.94901960784313721" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="longStoryButton:" destination="RML-ao-bvA" eventType="touchUpInside" id="8Jj-q5-rif"/>
                                 </connections>
@@ -191,7 +221,10 @@
                                     <constraint firstAttribute="width" constant="200" id="AXq-eX-7rQ"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Moderate"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Moderate">
+                                    <color key="baseForegroundColor" systemColor="systemBlueColor"/>
+                                    <color key="baseBackgroundColor" red="0.89411764705882346" green="0.94901960784313721" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="moderateStoryButton:" destination="RML-ao-bvA" eventType="touchUpInside" id="dJ2-5n-i7N"/>
                                 </connections>
@@ -365,8 +398,8 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="secondarySystemBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -374,14 +407,8 @@
         <systemColor name="systemBlueColor">
             <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
