@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     //@IBOutlet weak var storyLottie: UIView!
     
     private var welcomeScreen : LottieAnimationView!
+    @IBOutlet var tableView : UITableView!
     
     @IBOutlet weak var searchTop: LottieAnimationView!
     

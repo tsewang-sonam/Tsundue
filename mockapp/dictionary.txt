@@ -49,152 +49,120 @@ Party ཚོགས་པ་
 Picture
 Pig ཕག་པ
 Princess
-Rabbit
-Rat
-River
-Road
-Rock
-School
+Rabbit རི་བོང་
+Rat ཙི་ཙི་
+River གཙང་པོ་
+Road ལམ་
+Rock རྡོ་
+School སློབ་གྲ་
 Seed
-Sheep
-Sister
-Sky
-Snow
-Song
+Sheep ལུག་
+Sister ཨ་ལྕག་
+Sky གནམ་
+Snow གངས་
+Song གཞས་
 Spider
-Star
-Stone
-Sun
-Tail
-Time
-Tree
-Unicorn
-Village
-Water
-Wave
-Wind
-Wolf
-Woman
-World
-Baby
-Ball
-Beach
-Bed
-Bicycle
-Boat
-Book
-Box
-Bread
-Brother
-Butterfly
+Star སྐར་མ་
+Stone རྡོ་
+Sun ཉི་མ་
+Tail རྔ་མ་
+Time དུས་ཚོད་
+Tree ཤིང་སྡོང་
+Village གྲོང་གསེབ་
+Water ཆུ་
+Wave རྦ་རླབས་
+Wind རླུང་
+Wolf སྤྱང་ཀི་
+Woman བུད་མེད་
+World འཛམ་གླིང་
+Baby བྱིས་པ་
+Ball པོ་ལོ་
+Bed ཉལ་ཁྲི་
+Bicycle རྐང་སྒ་རིལ་
+Boat གྲུ་གཟིངས་
+Book དེབ་
+Box སྒམ་
+Bread བག་ལེབ་
+Brother ཅོ་ཅོ་
+Butterfly ཕྱེ་མ་ལེབ་
 Cake
-Car
-Chair
-Chicken
-Chocolate
-Christmas
-Cloud
-Coat
-Color
-Corn
-Cow
-Crab
+Car མོ་ཊ་
+Chair རྐུབ་ཀྱག་
+Chicken བྱ་སྡི་
+Cloud སྤྲིན་པ་
+Coat སྟོད་ཐུང་
+Color ཚོན་མདོག་
+Crab སྡིག་སྲིན་
 Cup
-Dad
-Deer
-Doll
-Dragon
-Dream
-Drum
-Duckling
-Earth
-Egg
-Elephant
-Eye
-Fall
-Feather
-Fire
-Flower
-Food
-Forest
-Fox
-Frog
-Fruit
-Gift
-Goat
+Dad ཨ་ཕ་
+Deer ཤྭ་བ་
+Doll ཨ་ལས་པད་ཀོག་
+Dragon འབྲུག་
+Dream རྨི་ལམ་
+Drum རྔ་
+Duckling བྱ་གག་ཆུང་ཆུང
+Earth སའི་གོ་ལ་
+Egg སྒོ་ང་
+Elephant གླང་ཆེན་
+Eye མིག་
+Fall སྟོན་ཀ་
+Feather བྱ་སྒྲོ་
+Fire མེ་
+Flower མེ་ཏོག་
+Forest ཤིང་ནགས་
+Fox ཝ་
+Fruit ཤིང་ཏོག་
+Gift རྔན་པ་
+Goat ར་
 Grasshopper
-Hair
-Hat
-House
-Ice
-Island
-Jellyfish
-Jump
-Key
-Kite
+Hair སྐྲ་
+Ice འཁྱགས་པ་
+Island གླིང་ཕྲན་
+Jump མཆོང་
+Key ལྡེ་མིག་
+Kite ཤོག་བྱ་
 Ladybug
-Lamp
-Leaf
+Lamp ལུག་ཕྲུག་
+Leaf ལོ་མ་
 Lemon
-Light
-Mailbox
-Maple
+Light འོད་
+Mailbox ཡིག་སྒམ་
 Mask
-Milk
-Monkey
-Moon
-Mountain
-Music
-Ocean
-Acorn
-Airplane
-Apple
-Art
-Baby
-Backpack
-Bag
+Milk འོ་མ་
+Monkey སྤྲིའུ་
+Mountain རི་
+Music རོལ་གཞས
+Ocean རྒྱ་མཚོ་
+Airplane གནམ་གྲུ་
+Apple ཀུ་ཤུ་
+Art ལག་རྩལ་
+Backpack རྒྱབ་ཁུག་
+Bag ལྟོ་ཕད་
 Balloon
-Banana
-Bandana
-Basket
-Bath
-Beanie
-Bedtime
-Bee
-Bicycle
-Bike]
-Birthday
-Blackberry
-Blanket
-Blueberry
-Boat
-Bookcase
-Bookshelf
-Boot
-Bottle
-Bowl
-Bread
+Banana ངང་ལག་
+Basket སླེ་བོ་
+Bath གཟུགས་པོ་ཁྲུ་
+Bee སྦྲང་མ་
+Birthday སྐྱེས་སྐར་
+Blanket ཉལ་ཆས་
+Boot ལྷམ་གོ་
+Bottle ཤེལ་དམ་
+Bowl དཀར་ཡོལ་
+Bread བག་ལེབ་
 Brick
-Bridge
+Bridge ཟམ་པ་
 Bucket
-Bug
-Building
-Bumblebee
-Bunny
-Butterfly
-Button
-Cabbage
+Bug འབུ་་
+Building ཐོགས་རྩེགས་
+Cabbage ལོང་ཀོར་པད་ཚལ་
 Cactus
-Cake
-Camera
-Candle
-Candy
+Camera པར་ཆས་
+Candle ཡང་ལཱ་
+Candy ཀ་ར་
 Cane
-Canoe
-Carrot
-Castle
+Carrot ལ་ཕུག་དམར་པོ
+Castle མཁར་
 Caterpillar
-Cauliflower
 Cave
 Cedar
 Celery
@@ -309,18 +277,14 @@ Glove
 Glowworm
 Goat
 Goldfish
-Golf ball
 Gourd
 Grasshopper
 Gravel
 Gravy
 Green beans
 Greenhouse
-Greeting card
+Greeting
 Grill
-Grocery store
-Gumball
-Gummy bear
 Hail
 Hairbrush
 Hamburger
@@ -329,14 +293,12 @@ Hamster
 Handbag
 Handkerchief
 Handwriting
-Hang glider
 Hatbox
 Haystack
 Headphones
 Heart
 Hedgehog
 Helicopter
-Hermit crab
 Hibiscus
 High chair
 Hill
@@ -347,7 +309,6 @@ Hornet
 Housefly
 Hummingbird
 Hurricane
-Icecream
 skate
 Icicle
 Igloo
@@ -400,7 +361,6 @@ Magnet
 Mailbox
 Manatee
 Mandarin
-Maple syrup
 Maracas
 Marker
 Marshmallow
@@ -819,3 +779,4 @@ Zipper
 Zone
 
 
+monkey

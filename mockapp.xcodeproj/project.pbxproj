@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E807F3DA2A0AEF320007E266 /* VocabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E807F3D92A0AEF320007E266 /* VocabController.swift */; };
 		E863C8812A01A34900D09DCB /* welcome.json in Resources */ = {isa = PBXBuildFile; fileRef = E863C8802A01A34800D09DCB /* welcome.json */; };
 		E863C8842A01F23600D09DCB /* vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = E863C8832A01F23600D09DCB /* vocab.json */; };
 		E887E73D29F86A6A00FB1AD8 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E887E73C29F86A6A00FB1AD8 /* Lottie */; };
@@ -26,6 +27,7 @@
 		E89F795C29FC353200AB972F /* dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = E89F795B29FC353200AB972F /* dictionary.txt */; };
 		E89F795E29FC391300AB972F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89F795D29FC391300AB972F /* SearchViewController.swift */; };
 		E89F796029FC3B4700AB972F /* PictureCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89F795F29FC3B4700AB972F /* PictureCollectionView.swift */; };
+		E8AAED632A0AD5C800EFF474 /* VocabularyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AAED622A0AD5C800EFF474 /* VocabularyViewController.swift */; };
 		E8B80E6A2A00816300337D19 /* vocabulary.json in Resources */ = {isa = PBXBuildFile; fileRef = E8B80E692A00816200337D19 /* vocabulary.json */; };
 		E8B80E6C2A00816900337D19 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = E8B80E6B2A00816900337D19 /* search.json */; };
 		E8B80E6E2A00817700337D19 /* quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = E8B80E6D2A00817700337D19 /* quiz.json */; };
@@ -50,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E807F3D92A0AEF320007E266 /* VocabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabController.swift; sourceTree = "<group>"; };
 		E863C8802A01A34800D09DCB /* welcome.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = welcome.json; sourceTree = "<group>"; };
 		E863C8832A01F23600D09DCB /* vocab.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vocab.json; sourceTree = "<group>"; };
 		E887E73E29F86A8700FB1AD8 /* read.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = read.json; sourceTree = "<group>"; };
@@ -72,6 +75,7 @@
 		E89F795B29FC353200AB972F /* dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dictionary.txt; sourceTree = "<group>"; };
 		E89F795D29FC391300AB972F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		E89F795F29FC3B4700AB972F /* PictureCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCollectionView.swift; sourceTree = "<group>"; };
+		E8AAED622A0AD5C800EFF474 /* VocabularyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyViewController.swift; sourceTree = "<group>"; };
 		E8B80E692A00816200337D19 /* vocabulary.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vocabulary.json; sourceTree = "<group>"; };
 		E8B80E6B2A00816900337D19 /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
 		E8B80E6D2A00817700337D19 /* quiz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
@@ -138,8 +142,9 @@
 				E8998C3429E88FDF006005A8 /* AppDelegate.swift */,
 				E8998C3629E88FDF006005A8 /* SceneDelegate.swift */,
 				E8998C3829E88FDF006005A8 /* ViewController.swift */,
-				E863C8822A01DFE500D09DCB /* search */,
 				E8D69D8529EA28D200239CCD /* story */,
+				E863C8822A01DFE500D09DCB /* search */,
+				E8DFDB112A0D6C3300E0AF04 /* vocabulary */,
 				E8998C3A29E88FDF006005A8 /* Main.storyboard */,
 				E8BE0FE429FB4E8E00E9E2F7 /* Story.txt */,
 				E89F795B29FC353200AB972F /* dictionary.txt */,
@@ -190,6 +195,15 @@
 				E8998C6A29E8AC1D006005A8 /* StoryTableViewController.swift */,
 			);
 			path = story;
+			sourceTree = "<group>";
+		};
+		E8DFDB112A0D6C3300E0AF04 /* vocabulary */ = {
+			isa = PBXGroup;
+			children = (
+				E8AAED622A0AD5C800EFF474 /* VocabularyViewController.swift */,
+				E807F3D92A0AEF320007E266 /* VocabController.swift */,
+			);
+			path = vocabulary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,10 +353,12 @@
 			files = (
 				E8998C6B29E8AC1D006005A8 /* StoryTableViewController.swift in Sources */,
 				E89F796029FC3B4700AB972F /* PictureCollectionView.swift in Sources */,
+				E8AAED632A0AD5C800EFF474 /* VocabularyViewController.swift in Sources */,
 				E89F795E29FC391300AB972F /* SearchViewController.swift in Sources */,
 				E8998C6729E8A31A006005A8 /* StoryViewController.swift in Sources */,
 				E8998C6D29E8B9CD006005A8 /* ReadStoryViewController.swift in Sources */,
 				E8998C3929E88FDF006005A8 /* ViewController.swift in Sources */,
+				E807F3DA2A0AEF320007E266 /* VocabController.swift in Sources */,
 				E8998C3529E88FDF006005A8 /* AppDelegate.swift in Sources */,
 				E8998C3729E88FDF006005A8 /* SceneDelegate.swift in Sources */,
 			);
