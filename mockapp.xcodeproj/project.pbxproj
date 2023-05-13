@@ -12,6 +12,7 @@
 		E863C8842A01F23600D09DCB /* vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = E863C8832A01F23600D09DCB /* vocab.json */; };
 		E887E73D29F86A6A00FB1AD8 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E887E73C29F86A6A00FB1AD8 /* Lottie */; };
 		E887E73F29F86A8700FB1AD8 /* read.json in Resources */ = {isa = PBXBuildFile; fileRef = E887E73E29F86A8700FB1AD8 /* read.json */; };
+		E88BA8902A0D9F8200FB9BA0 /* QuizImplementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88BA88F2A0D9F8200FB9BA0 /* QuizImplementViewController.swift */; };
 		E8998C3529E88FDF006005A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C3429E88FDF006005A8 /* AppDelegate.swift */; };
 		E8998C3729E88FDF006005A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C3629E88FDF006005A8 /* SceneDelegate.swift */; };
 		E8998C3929E88FDF006005A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C3829E88FDF006005A8 /* ViewController.swift */; };
@@ -24,6 +25,8 @@
 		E8998C6729E8A31A006005A8 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C6629E8A31A006005A8 /* StoryViewController.swift */; };
 		E8998C6B29E8AC1D006005A8 /* StoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C6A29E8AC1D006005A8 /* StoryTableViewController.swift */; };
 		E8998C6D29E8B9CD006005A8 /* ReadStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8998C6C29E8B9CD006005A8 /* ReadStoryViewController.swift */; };
+		E89ED8962A0EE04C00F182D7 /* ArraysOfVocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89ED8952A0EE04C00F182D7 /* ArraysOfVocabulary.swift */; };
+		E89EEBD42A0F041A0094013E /* SearchInFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89EEBD32A0F041A0094013E /* SearchInFile.swift */; };
 		E89F795C29FC353200AB972F /* dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = E89F795B29FC353200AB972F /* dictionary.txt */; };
 		E89F795E29FC391300AB972F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89F795D29FC391300AB972F /* SearchViewController.swift */; };
 		E89F796029FC3B4700AB972F /* PictureCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89F795F29FC3B4700AB972F /* PictureCollectionView.swift */; };
@@ -32,6 +35,8 @@
 		E8B80E6C2A00816900337D19 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = E8B80E6B2A00816900337D19 /* search.json */; };
 		E8B80E6E2A00817700337D19 /* quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = E8B80E6D2A00817700337D19 /* quiz.json */; };
 		E8BE0FE529FB4E8F00E9E2F7 /* Story.txt in Resources */ = {isa = PBXBuildFile; fileRef = E8BE0FE429FB4E8E00E9E2F7 /* Story.txt */; };
+		E8DFDB132A0D74C400E0AF04 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DFDB122A0D74C400E0AF04 /* QuizViewController.swift */; };
+		E8DFDB152A0D771A00E0AF04 /* QuizTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DFDB142A0D771A00E0AF04 /* QuizTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +61,7 @@
 		E863C8802A01A34800D09DCB /* welcome.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = welcome.json; sourceTree = "<group>"; };
 		E863C8832A01F23600D09DCB /* vocab.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vocab.json; sourceTree = "<group>"; };
 		E887E73E29F86A8700FB1AD8 /* read.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = read.json; sourceTree = "<group>"; };
+		E88BA88F2A0D9F8200FB9BA0 /* QuizImplementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizImplementViewController.swift; sourceTree = "<group>"; };
 		E8998C3129E88FDF006005A8 /* mockapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mockapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8998C3429E88FDF006005A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8998C3629E88FDF006005A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +78,8 @@
 		E8998C6629E8A31A006005A8 /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
 		E8998C6A29E8AC1D006005A8 /* StoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTableViewController.swift; sourceTree = "<group>"; };
 		E8998C6C29E8B9CD006005A8 /* ReadStoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadStoryViewController.swift; sourceTree = "<group>"; };
+		E89ED8952A0EE04C00F182D7 /* ArraysOfVocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysOfVocabulary.swift; sourceTree = "<group>"; };
+		E89EEBD32A0F041A0094013E /* SearchInFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInFile.swift; sourceTree = "<group>"; };
 		E89F795B29FC353200AB972F /* dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dictionary.txt; sourceTree = "<group>"; };
 		E89F795D29FC391300AB972F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		E89F795F29FC3B4700AB972F /* PictureCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCollectionView.swift; sourceTree = "<group>"; };
@@ -80,6 +88,8 @@
 		E8B80E6B2A00816900337D19 /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
 		E8B80E6D2A00817700337D19 /* quiz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
 		E8BE0FE429FB4E8E00E9E2F7 /* Story.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Story.txt; sourceTree = "<group>"; };
+		E8DFDB122A0D74C400E0AF04 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		E8DFDB142A0D771A00E0AF04 /* QuizTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +155,7 @@
 				E8D69D8529EA28D200239CCD /* story */,
 				E863C8822A01DFE500D09DCB /* search */,
 				E8DFDB112A0D6C3300E0AF04 /* vocabulary */,
+				E8DFDB162A0D7D5E00E0AF04 /* quiz */,
 				E8998C3A29E88FDF006005A8 /* Main.storyboard */,
 				E8BE0FE429FB4E8E00E9E2F7 /* Story.txt */,
 				E89F795B29FC353200AB972F /* dictionary.txt */,
@@ -152,6 +163,8 @@
 				E8998C3F29E88FE1006005A8 /* LaunchScreen.storyboard */,
 				E8998C4229E88FE1006005A8 /* Info.plist */,
 				E8B80E6F2A00818600337D19 /* lotties animations */,
+				E89ED8952A0EE04C00F182D7 /* ArraysOfVocabulary.swift */,
+				E89EEBD32A0F041A0094013E /* SearchInFile.swift */,
 			);
 			path = mockapp;
 			sourceTree = "<group>";
@@ -204,6 +217,16 @@
 				E807F3D92A0AEF320007E266 /* VocabController.swift */,
 			);
 			path = vocabulary;
+			sourceTree = "<group>";
+		};
+		E8DFDB162A0D7D5E00E0AF04 /* quiz */ = {
+			isa = PBXGroup;
+			children = (
+				E8DFDB122A0D74C400E0AF04 /* QuizViewController.swift */,
+				E8DFDB142A0D771A00E0AF04 /* QuizTableViewController.swift */,
+				E88BA88F2A0D9F8200FB9BA0 /* QuizImplementViewController.swift */,
+			);
+			path = quiz;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,8 +381,13 @@
 				E8998C6729E8A31A006005A8 /* StoryViewController.swift in Sources */,
 				E8998C6D29E8B9CD006005A8 /* ReadStoryViewController.swift in Sources */,
 				E8998C3929E88FDF006005A8 /* ViewController.swift in Sources */,
+				E8DFDB132A0D74C400E0AF04 /* QuizViewController.swift in Sources */,
+				E8DFDB152A0D771A00E0AF04 /* QuizTableViewController.swift in Sources */,
 				E807F3DA2A0AEF320007E266 /* VocabController.swift in Sources */,
+				E88BA8902A0D9F8200FB9BA0 /* QuizImplementViewController.swift in Sources */,
 				E8998C3529E88FDF006005A8 /* AppDelegate.swift in Sources */,
+				E89EEBD42A0F041A0094013E /* SearchInFile.swift in Sources */,
+				E89ED8962A0EE04C00F182D7 /* ArraysOfVocabulary.swift in Sources */,
 				E8998C3729E88FDF006005A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -266,7 +266,6 @@ Frying pan
 Funnel
 Furniture
 Gargoyle
-Garlic
 Gasoline
 Gecko
 Gift
@@ -281,7 +280,6 @@ Gourd
 Grasshopper
 Gravel
 Gravy
-Green beans
 Greenhouse
 Greeting
 Grill
@@ -395,7 +393,6 @@ Mouth
 Movie
 Muffin
 Muscle
-Mushroom
 Music
 Nail
 Napkin
@@ -412,9 +409,7 @@ Ocean
 Octopus
 Oil
 Olive
-Onion
 Opera
-Orange
 Orchid
 Ostrich
 Otter
@@ -456,7 +451,6 @@ Pony
 Pool
 Popcorn
 Postcard
-Potato
 Pumpkin
 Puppet
 Puzzle
@@ -474,7 +468,6 @@ Raspberry
 Reading
 Recipe
 Record
-Red
 Reflection
 Reindeer
 Restaurant
@@ -765,7 +758,6 @@ Wreck
 Write
 Wrong
 Year
-Yellow
 Yes
 Yesterday
 Yield
@@ -777,6 +769,89 @@ Zigzag
 Zinc
 Zipper
 Zone
+Blue སྔོན་པོ་
+Red དམར་པོ་
+Black ནག་པོ་
+Green ལྗང་ཁུ་
+Yellow སེར་པོ་
+White དཀར་པོ་
+Orange ལི་ཝང་
+Pink ཟིང་སྐྱ་
+Purple མུ་མན་
+Brown རྒྱ་སྨྱུག་
+Navy སྔོན་ནག་
+Tibet བོད་
+India རྒྱ་གར་
+Nepal བལ་ཡུལ་
+China རྒྱ་ནག་
+Mongolia སོག་པོ་
+Afghanistan
+Japan ཉི་ཧོང་
+Bhutan བྲུག་ཡུལ་
+America ཨ་མེ་རི་ཀ་
+France ཕ་རན་སི་
+Germany ཇར་མན་
+Potato ཞོག་ཁོག་
+Onion ཙོང་
+Carrot ལ་ཕུག་དམར་པོ
+Spinach སྔོ་ཚལ་
+Tomatoes ལྡུམ་སྒོང
+Corn
+Turnip ལ་ཕུག་
+Garlic སྒོག་པ་
+Beans སྲན་མ་
+Mushroom ཤ་མོ་
+Cabbage ལོང་ཀོར་པད་ཚལ་
+Sunday གཟའ་ཉི་མ་
+Monday གཟའ་ཟླ་བ
+Tuesday གཟའ་མིག་དམར་
+Wednesday གཟའ་ལྷག་པ་
+Thursday གཟའ་ཕུར་བུ་
+Friday གཟའ་པ་སངས་
+Saturday གཟའ་སྤེན་པ་
+Mountain རི་
+Tree ཤིང་སྡོང་
+Ocean རྒྱ་མཚོ་
+Lake མཚོ་
+Cloud སྤྲིན་པ་
+Wind རླུང་
+Ice འཁྱགས་པ་
+Rain ཆར་པ་
+Snow གངས་
+River གཙང་པོ་
+Student སློབ་ཕྲུག་
+Teacher དགེ་རྒན་
+Book དེབ་
+Pen སྨྱུ་གུ་
+Classroom ཛིན་གྲྭ
+Pencil ཞ་སྨྱུག་
+Bag ལྟོ་ཕད་
+Paper ཤོག་བུ་
+Textbook སློབ་དེབ་
+Classmate
+School སློབ་གྲ་
+Stove ཐབ་
+Fridge འཁྱགས་གམ་
+Cup ཕོར་པ་
+Plate ཕོར་པ་
+Spoon ཐུར་མ་
+Knives གྲི་
+Utensils སྣོད་ཆས་
+Strainer ཚགས་
+Thermostat ཇ་དམ་
+Spices
+Salt ཚྭ་
+Pepper སོ་ལོ་
+Ginger སྒ་སྐྱ་
+chilli སི་པན་
+Egg སྒོང་ང་
+Cooking_oil ཟ་སྣུམ་
+Sugar བྱེ་མ་ཀ་ར
+Flour གྲོ་ཞིབ་
+Rice འབྲས་
 
 
-monkey
+
+
+
+

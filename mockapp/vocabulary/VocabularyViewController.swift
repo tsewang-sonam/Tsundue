@@ -26,17 +26,22 @@
             // dequeReusbale enables us to reuse table with Id "UseAgain" and saves memory
             let cell = tableView.dequeueReusableCell(withIdentifier: "UseAgain", for: indexPath)
             
-            cell.textLabel?.text = vocabList[i].description
+            cell.textLabel?.text = vocabList[i]
             i += 1
-            cell.backgroundColor = UIColor.yellow
+            cell.backgroundColor = UIColor.cyan
             
             return cell
             
         }
         
         func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-          
+            let passName = vocabList[indexPath.row].description
+            
+//            let detailsVC = VocabController()
+//                    detailsVC.selectedItem = selectedItem
+//
             if let obj = storyboard?.instantiateViewController(withIdentifier: "VocabController") as? VocabController{
+                obj.passName = passName
                 self.navigationController?.pushViewController(obj, animated: true)
             }
            
@@ -44,11 +49,12 @@
         }
         
         
-        let vocabList : [String] = [ "Animal", "Vegetables","Days","Colors","Nature","Vegetables","Body Parts", "Countries","School","Kitchen"]
+        let vocabList : [String] = [ "Animal", "Vegetables","Days","Colors","Nature","Body_Parts", "Countries","School","Kitchen"]
         
         override func viewDidLoad() {
             super.viewDidLoad()
             
+            tableview.delegate = self
             tableview.dataSource = self
             tableview.register(UITableViewCell.self, forCellReuseIdentifier: "UseAgain")
             
