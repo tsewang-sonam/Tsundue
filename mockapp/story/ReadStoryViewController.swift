@@ -62,6 +62,7 @@ class ReadStoryViewController: UIViewController {
             countLabel.text = "Page : " + String(count + 1) + " / 4"
            // storyWords.text = "heeeee"
             image.image = UIImage(named: "pg1")
+            image.contentMode = .scaleAspectFill
         }
         
         

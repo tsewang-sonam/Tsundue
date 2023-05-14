@@ -304,7 +304,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Snv-vD-LVs">
-                                <rect key="frame" x="122" y="235.99999999999997" width="149" height="65.666666666666657"/>
+                                <rect key="frame" x="122" y="203.33333333333334" width="149" height="98.333333333333343"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -336,6 +336,9 @@
                                 <rect key="frame" x="158" y="710.66666666666663" width="78" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Submit"/>
+                                <connections>
+                                    <action selector="submitPressed:" destination="c3p-xy-dbv" eventType="touchUpInside" id="Pq4-si-Jdg"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Score  :   " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6CG-od-Wip">
                                 <rect key="frame" x="122" y="143" width="142" height="20.333333333333343"/>
@@ -349,8 +352,8 @@
                         <color key="tintColor" red="0.54364509490000001" green="0.84054951079999995" blue="0.88150376080000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="n7o-to-HIV" firstAttribute="trailing" secondItem="6CG-od-Wip" secondAttribute="trailing" constant="129" id="0ER-ok-vn3"/>
+                            <constraint firstItem="Snv-vD-LVs" firstAttribute="top" secondItem="6CG-od-Wip" secondAttribute="bottom" constant="40" id="0hG-iv-uGU"/>
                             <constraint firstItem="n7o-to-HIV" firstAttribute="trailing" secondItem="lDs-Rs-uYE" secondAttribute="trailing" constant="157" id="2rf-Fa-lT3"/>
-                            <constraint firstItem="Snv-vD-LVs" firstAttribute="top" secondItem="6CG-od-Wip" secondAttribute="bottom" constant="72.670000000000002" id="6In-3V-zx6"/>
                             <constraint firstItem="vaS-uD-s6A" firstAttribute="leading" secondItem="gPn-gi-2My" secondAttribute="leading" id="6Vi-fC-KwI"/>
                             <constraint firstItem="xUj-te-V9a" firstAttribute="top" secondItem="Ful-vs-Udr" secondAttribute="bottom" constant="41" id="8tT-un-Klj"/>
                             <constraint firstItem="gPn-gi-2My" firstAttribute="top" secondItem="vaS-uD-s6A" secondAttribute="bottom" constant="41" id="8uX-ya-tQY"/>
@@ -379,12 +382,13 @@
                         <outlet property="img2" destination="vaS-uD-s6A" id="fGe-HD-Lq9"/>
                         <outlet property="img3" destination="xUj-te-V9a" id="lAM-nr-GsP"/>
                         <outlet property="img4" destination="gPn-gi-2My" id="BqK-Le-CrC"/>
+                        <outlet property="quizWord" destination="Snv-vD-LVs" id="6XZ-dk-Qf1"/>
                         <outlet property="scoreCount" destination="6CG-od-Wip" id="M3X-l2-adl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pcq-rG-MlC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3197.709923664122" y="1552.8169014084508"/>
+            <point key="canvasLocation" x="3500" y="1725"/>
         </scene>
         <!--Vocab Controller-->
         <scene sceneID="yae-Ib-HYA">
@@ -651,7 +655,7 @@
                                     <constraint firstAttribute="height" constant="25" id="Ekv-IV-J6h"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="QkU-u3-hPg"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>

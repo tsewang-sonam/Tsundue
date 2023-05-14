@@ -12,16 +12,18 @@ class QuizTableViewController: UIViewController,UITableViewDelegate, UITableView
     @IBOutlet weak var tableview: UITableView!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return vocabList.count
+        
     }
     
+    var i = 0;
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "endlessTables", for: indexPath)
         
-        cell.textLabel?.text = "endlessTables"
-        //i += 1
-        cell.backgroundColor = UIColor.red
+        cell.textLabel?.text = vocabList[i]
+        i += 1
+        cell.backgroundColor = UIColor.white
         
         return cell
         
@@ -35,6 +37,7 @@ class QuizTableViewController: UIViewController,UITableViewDelegate, UITableView
        
     }
     
+    let vocabList : [String] = [ "Animal", "Vegetables","Days","Colors","Nature","Body_Parts", "Countries","School","Kitchen"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,16 +46,5 @@ class QuizTableViewController: UIViewController,UITableViewDelegate, UITableView
         tableview.dataSource = self
         tableview.register(UITableViewCell.self, forCellReuseIdentifier: "endlessTables")
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

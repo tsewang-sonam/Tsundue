@@ -28,7 +28,7 @@
             
             cell.textLabel?.text = vocabList[i]
             i += 1
-            cell.backgroundColor = UIColor.cyan
+            cell.backgroundColor = UIColor.white
             
             return cell
             
