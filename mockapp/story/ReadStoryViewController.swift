@@ -19,11 +19,16 @@ class ReadStoryViewController: UIViewController {
             storyWords.text = tenSentences[count].description
             countLabel.text = "Page : " + String(count + 1) + " / 4"
         } else {
-            do {
+//            do {
              //  animationLottie()
+                update()
+               count = 4
                 storyWords.text = "End of Story"
-                count = 4
-            }
+             
+                let backToTable = self.storyboard?.instantiateViewController(withIdentifier: "StoryTableViewController") as! StoryTableViewController
+                self.navigationController?.pushViewController(backToTable , animated: true)
+
+            //}
         }
     }
     @IBAction func previous(_ sender: Any) {
@@ -33,10 +38,12 @@ class ReadStoryViewController: UIViewController {
             storyWords.text = tenSentences[count].description
             countLabel.text = "Page : " + String(count + 1) + " / 4"
         }else {
-            do {
-                //   animationLottie()
+//            do {
+//                //   animationLottie()
                 count = 0
-            }
+            let backToTable2 = self.storyboard?.instantiateViewController(withIdentifier: "StoryTableViewController") as! StoryTableViewController
+            self.navigationController?.pushViewController(backToTable2 , animated: true)
+//            }
         }
         
     }
@@ -48,21 +55,26 @@ class ReadStoryViewController: UIViewController {
     
    // var item : [ShortStory]?
    
-       // var cellName: String?
+        var cellName: String?
         
         override func viewDidLoad() {
             super.viewDidLoad()
             
-            // cellName get the name of button from previous cell tapped in Viewcontroller
-           // guard let cellName = cellName else { return }
+            //cellName get the name of button from previous cell tapped in Viewcontroller
+           guard let cellName = cellName else { return }
             
+            
+           // print(cellName)
             // Do any additional setup after loading the view.
             extractFromFile(word: "Story1")
+            add ()
             storyWords.text = tenSentences.first
             countLabel.text = "Page : " + String(count + 1) + " / 4"
            // storyWords.text = "heeeee"
             image.image = UIImage(named: "pg1")
             image.contentMode = .scaleAspectFill
+            
+           print( fetch(string: cellName))
         }
         
         
@@ -101,6 +113,92 @@ class ReadStoryViewController: UIViewController {
                 print("Error reading file: \(error)")
             }
         }
+    
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+    
+    // add the values to the atributes in the core data
+        func add () {
+            let entity = NSEntityDescription.entity(forEntityName: "StoryTitles", in: context)
+            let newUser = NSManagedObject(entity: entity!, insertInto: context)
+            
+            newUser.setValue(cellName, forKey: "id")
+            newUser.setValue(false, forKey: "isUserDone")
+            
+            do {
+              try context.save()
+             } catch {
+              print("Error saving")
+            }
+        }
+        
+        
+        // help us fetch the core data.
+//        func fetch (string : String) {
+//            let request = NSFetchRequest<NSFetchRequestResult>(entityName: "StoryTitles")
+//        request.predicate = NSPredicate(format: "id = %@", string)
+//            request.fetchLimit = 1
+//            request.returnsObjectsAsFaults = false
+//            do {
+//                        let result = try context.fetch(request)
+//                        for data in result as! [NSManagedObject]
+//            {
+//
+//                    if let done = data.value(forKey: "isUserDone") as? Bool {
+//                                print(done)
+//                            } else {
+//                                // Handle the case where "isDone" is not found or is nil
+//                                print("error1")
+//                            }
+//              }
+//                   } catch {
+//
+//                       print("Failed")
+//            }
+//        }
+    
+    
+    func fetch(string: String) -> String? {
+        let request = NSFetchRequest<NSFetchRequestResult>(entityName: "StoryTitles")
+        request.predicate = NSPredicate(format: "id = %@", string)
+        request.fetchLimit = 1
+        request.returnsObjectsAsFaults = false
+        
+        do {
+            let result = try context.fetch(request)
+            for data in result as! [NSManagedObject] {
+                if let isUserDone = data.value(forKey: "isUserDone") as? Bool {
+                    let resultString = isUserDone ? "true" : "false"
+                    return resultString
+                } else {
+                    return nil
+                }
+            }
+        } catch {
+            print("Failed to fetch data: \(error)")
+        }
+        
+        return nil
+    }
+        
+        // updates the value of the boolean
+        func update(){
+            let fetchRequest: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest(entityName: "StoryTitles")
+            fetchRequest.predicate = NSPredicate(format: "id = %@", cellName!)
+
+            do {
+                let result = try context.fetch(fetchRequest)
+                if let user = result.first as? NSManagedObject {
+                    user.setValue(true, forKey: "isUserDone")
+                    try context.save()
+                    print("Successfully updated boolean value")
+                } else {
+                    print("bool not found")
+                }
+            } catch let error as NSError {
+                print("Fetch error: \(error), \(error.userInfo)")
+            }
+        }
+
 
 
 }

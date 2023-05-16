@@ -35,6 +35,7 @@
 		E8B80E6C2A00816900337D19 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = E8B80E6B2A00816900337D19 /* search.json */; };
 		E8B80E6E2A00817700337D19 /* quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = E8B80E6D2A00817700337D19 /* quiz.json */; };
 		E8BE0FE529FB4E8F00E9E2F7 /* Story.txt in Resources */ = {isa = PBXBuildFile; fileRef = E8BE0FE429FB4E8E00E9E2F7 /* Story.txt */; };
+		E8CFE5DE2A133ECE0092864B /* storeDataTry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8CFE5DC2A133ECE0092864B /* storeDataTry.xcdatamodeld */; };
 		E8DFDB132A0D74C400E0AF04 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DFDB122A0D74C400E0AF04 /* QuizViewController.swift */; };
 		E8DFDB152A0D771A00E0AF04 /* QuizTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DFDB142A0D771A00E0AF04 /* QuizTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -88,6 +89,7 @@
 		E8B80E6B2A00816900337D19 /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
 		E8B80E6D2A00817700337D19 /* quiz.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
 		E8BE0FE429FB4E8E00E9E2F7 /* Story.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Story.txt; sourceTree = "<group>"; };
+		E8CFE5DD2A133ECE0092864B /* storeDataTry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = storeDataTry.xcdatamodel; sourceTree = "<group>"; };
 		E8DFDB122A0D74C400E0AF04 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		E8DFDB142A0D771A00E0AF04 /* QuizTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,6 +162,7 @@
 				E8BE0FE429FB4E8E00E9E2F7 /* Story.txt */,
 				E89F795B29FC353200AB972F /* dictionary.txt */,
 				E8998C3D29E88FE1006005A8 /* Assets.xcassets */,
+				E8CFE5DC2A133ECE0092864B /* storeDataTry.xcdatamodeld */,
 				E8998C3F29E88FE1006005A8 /* LaunchScreen.storyboard */,
 				E8998C4229E88FE1006005A8 /* Info.plist */,
 				E8B80E6F2A00818600337D19 /* lotties animations */,
@@ -381,6 +384,7 @@
 				E8998C6729E8A31A006005A8 /* StoryViewController.swift in Sources */,
 				E8998C6D29E8B9CD006005A8 /* ReadStoryViewController.swift in Sources */,
 				E8998C3929E88FDF006005A8 /* ViewController.swift in Sources */,
+				E8CFE5DE2A133ECE0092864B /* storeDataTry.xcdatamodeld in Sources */,
 				E8DFDB132A0D74C400E0AF04 /* QuizViewController.swift in Sources */,
 				E8DFDB152A0D771A00E0AF04 /* QuizTableViewController.swift in Sources */,
 				E807F3DA2A0AEF320007E266 /* VocabController.swift in Sources */,
@@ -749,6 +753,19 @@
 			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		E8CFE5DC2A133ECE0092864B /* storeDataTry.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E8CFE5DD2A133ECE0092864B /* storeDataTry.xcdatamodel */,
+			);
+			currentVersion = E8CFE5DD2A133ECE0092864B /* storeDataTry.xcdatamodel */;
+			path = storeDataTry.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E8998C2929E88FDF006005A8 /* Project object */;
 }
