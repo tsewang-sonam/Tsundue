@@ -29,57 +29,47 @@ class ViewController: UIViewController {
     @IBOutlet weak var quizTop: LottieAnimationView!
     
     @IBAction func storyButton(_ sender: UIButton) {
-//        let addonTop = UIView()
-//          sender.superview?.addSubview(addonTop)
-//          sender.superview?.bringSubviewToFront(sender)
-          print("clicked")
-        
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "StoryViewController") as! StoryViewController
         self.navigationController?.pushViewController(vc, animated: true)
     
     }
     
     @IBAction func searchButton(_ sender: UIButton) {
-
-          print("clicked")
-
     }
     
     @IBAction func vocabularyButton(_ sender: UIButton) {
-       
-        print("clicked")
     }
     
     @IBAction func quizButton(_ sender: UIButton) {
-        print("clicked")
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-       // lottieWelcome()
+       
+        // Displays a lottie at the starting of the application
+        lottieWelcome()
         
+        //Displays a random quotes on the UILable quotes Display on the home screen
         quotesDisplay.text = quotes.randomElement()?.description
+        
+        
+        // Four lottie Animation for the buttons namely (search,  read,  vocab,  vocabulary)
         lottieAnimation(string : "search" , outletButton: searchTop)
        lottieAnimation(string :"read",outletButton: storyTop)
-//        
-//        let addonTop = UIView()
-//        storyTop.superview?.addSubview(addonTop)
-//        storyTop.superview?.bringSubviewToFront(storyTop)
-        
         lottieAnimation(string :"vocab",outletButton: vocabularyTop)
         lottieAnimation(string :"vocabulary",outletButton: quizTop)
-//
     }
     
+    // function for the lottie animation
     func lottieAnimation(string : String, outletButton : LottieAnimationView) {
       
         let animation = LottieAnimation.named(string)
                outletButton.animation = animation
                outletButton.loopMode = .loop
                outletButton.play()
-
     }
     
+    
+    //function for the initial lotties that display when opening app
     func lottieWelcome() {
         welcomeScreen = .init(name: "welcome")
         welcomeScreen.frame = view.frame
@@ -95,6 +85,10 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    
+    
+    // Array storing multiple quotations
     
     let quotes : [String] = [ "A disciplined mind brings happiness.  - Buddha ",
                              "The way is not in the sky. The way is in the heart.  - Buddha",

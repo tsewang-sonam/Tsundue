@@ -89,7 +89,8 @@ class SearchViewController: UIViewController,UICollectionViewDataSource {
             print ("fetching :  " + query)
             // below after ? the kwywords like query, order_by,per_page are there to filter the images to get
             
-            let urlString = "https://api.unsplash.com/search/photos?query=\(query)&order_by=popular&per_page=1&client_id=ElAyf2yTSY6NS1LSaD_h6pZosQ8bswQrJUir5egH2eA"
+            let urlString =
+                "https://api.unsplash.com/search/photos?page=1&per_page=1&query=\(query)&client_id=ElAyf2yTSY6NS1LSaD_h6pZosQ8bswQrJUir5egH2eA"
             
             guard let url = URL (string: urlString) else {
                 return

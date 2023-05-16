@@ -49,7 +49,7 @@
         }
         
         
-        let vocabList : [String] = [ "Animal", "Vegetables","Days","Colors","Nature","Body_Parts", "Countries","School","Kitchen"]
+        let vocabList : [String] = [ "Animal", "Vegetables","Colors","Days","Nature","Body_Parts", "Countries","School","Kitchen"]
         
         override func viewDidLoad() {
             super.viewDidLoad()

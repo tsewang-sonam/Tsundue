@@ -11,75 +11,76 @@ import CoreData
 class ReadStoryViewController: UIViewController {
     var count = 0
     
+    // Following is implementation of next button
+    // Where user can press next till the end
+    // after which it jump back to the table with other stories options
+    
     @IBAction func next(_ sender: Any) {
         count = count + 1
         if( count != 4) {
             
-            image.image = UIImage(named: "pg\(count + 1)")
+            image.image = UIImage(named: (cellName ?? "") + "pg\(count + 1)")
             storyWords.text = tenSentences[count].description
             countLabel.text = "Page : " + String(count + 1) + " / 4"
         } else {
-//            do {
-             //  animationLottie()
+
                 update()
                count = 4
                 storyWords.text = "End of Story"
-             
+            
                 let backToTable = self.storyboard?.instantiateViewController(withIdentifier: "StoryTableViewController") as! StoryTableViewController
                 self.navigationController?.pushViewController(backToTable , animated: true)
-
-            //}
         }
     }
+    
+    
+    // Following is implementation of prev button
+    // it takes the user back to previous page if they desire to read it again
+    
     @IBAction func previous(_ sender: Any) {
         if( count != 0) {
             count = count - 1
-            image.image = UIImage(named: "pg\(count+1)")
+            image.image = UIImage(named: (cellName ?? "") + "pg\(count + 1)")
             storyWords.text = tenSentences[count].description
             countLabel.text = "Page : " + String(count + 1) + " / 4"
         }else {
-//            do {
-//                //   animationLottie()
                 count = 0
             let backToTable2 = self.storyboard?.instantiateViewController(withIdentifier: "StoryTableViewController") as! StoryTableViewController
             self.navigationController?.pushViewController(backToTable2 , animated: true)
-//            }
         }
-        
     }
+    
     @IBOutlet weak var storyWords: UILabel!
     @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var countLabel: UILabel!
     
-   // let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-    
-   // var item : [ShortStory]?
+ 
    
         var cellName: String?
         
         override func viewDidLoad() {
             super.viewDidLoad()
             
-            //cellName get the name of button from previous cell tapped in Viewcontroller
+        //cellName get the name of button from previous cell tapped in Viewcontroller
            guard let cellName = cellName else { return }
             
             
-           // print(cellName)
-            // Do any additional setup after loading the view.
-            extractFromFile(word: "Story1")
+            extractFromFile(word: cellName)
+            
+            //Function add is meant adding the data to the Coredata
             add ()
+            
             storyWords.text = tenSentences.first
             countLabel.text = "Page : " + String(count + 1) + " / 4"
-           // storyWords.text = "heeeee"
-            image.image = UIImage(named: "pg1")
+            image.image = UIImage(named: (cellName ) + "pg\(count + 1)")
             image.contentMode = .scaleAspectFill
-            
-           print( fetch(string: cellName))
         }
         
-        
+    // Stores the sentences from the Story txt
     var tenSentences : [String] = []
         
+    
+    // This Function 
     func  extractFromFile (word : String)  {
             
             guard let path = Bundle.main.url(forResource: "Story", withExtension: "txt") else { return }
@@ -92,7 +93,6 @@ class ReadStoryViewController: UIViewController {
                     
                     
                    // let storeBool = ShortStory(context: self.context)
-                    
                     if line.contains(word) {
                         // Found the search word, add the next 4 lines to the array
                         for i in 1...4 {
@@ -132,31 +132,8 @@ class ReadStoryViewController: UIViewController {
         }
         
         
-        // help us fetch the core data.
-//        func fetch (string : String) {
-//            let request = NSFetchRequest<NSFetchRequestResult>(entityName: "StoryTitles")
-//        request.predicate = NSPredicate(format: "id = %@", string)
-//            request.fetchLimit = 1
-//            request.returnsObjectsAsFaults = false
-//            do {
-//                        let result = try context.fetch(request)
-//                        for data in result as! [NSManagedObject]
-//            {
-//
-//                    if let done = data.value(forKey: "isUserDone") as? Bool {
-//                                print(done)
-//                            } else {
-//                                // Handle the case where "isDone" is not found or is nil
-//                                print("error1")
-//                            }
-//              }
-//                   } catch {
-//
-//                       print("Failed")
-//            }
-//        }
-    
-    
+
+
     func fetch(string: String) -> String? {
         let request = NSFetchRequest<NSFetchRequestResult>(entityName: "StoryTitles")
         request.predicate = NSPredicate(format: "id = %@", string)

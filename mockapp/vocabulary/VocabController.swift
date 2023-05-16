@@ -48,7 +48,7 @@ class VocabController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        pageCount.text = "Word :  0"
+        pageCount.text = "Word :  "
         passedWord = passName?.lowercased() ?? ""
         let currentWord = displayImage()
         getDataFromFile(word : currentWord)

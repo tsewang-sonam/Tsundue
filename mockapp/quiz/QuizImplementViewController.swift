@@ -50,16 +50,12 @@ class QuizImplementViewController: UIViewController {
     
     func displayImage () -> String {
         
-//        var n = temp[k]
-//        n != firstRandom &&
         while j < 4 {
             
             let randomNum  =  num[j]
             
-            print ("ossssss ",  randomNum )
             
             if temp.contains(randomNum) {
-                print ("hello  here")
                 j -= 1
             }else {
                 QuizImplementViewController.fourRandomNum[j] = randomNum
@@ -81,6 +77,7 @@ class QuizImplementViewController: UIViewController {
         
         
     let word1 = getStringFrom.vegetables[one].description
+        quizWord.text = word1
     let boxImg1 = UIImage(named: word1)
     img1.image = boxImg1
     img1.contentMode = .scaleAspectFill
@@ -100,16 +97,7 @@ class QuizImplementViewController: UIViewController {
     let boxImg4 = UIImage(named: word4)
     img4.image = boxImg4
     img4.contentMode = .scaleAspectFill
-//        let word2 = getStringFrom.vegetables[count].description
-//        let boxImg2 = UIImage(named: word2)
-//        img2.image = boxImg2
-//        img2.contentMode = .scaleAspectFill
-//    var number = num.randomElement() ?? 3
-//    let two = getStringFrom.vegetables[number].description
-//    let boxImg2 = UIImage(named: two)
-//    img2.image = boxImg2
-//    img2.contentMode = .scaleAspectFill
-//
+
     return word1
         
     }

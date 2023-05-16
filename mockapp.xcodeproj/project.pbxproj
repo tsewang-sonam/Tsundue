@@ -124,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				E89F795D29FC391300AB972F /* SearchViewController.swift */,
+				E89F795F29FC3B4700AB972F /* PictureCollectionView.swift */,
 			);
 			path = search;
 			sourceTree = "<group>";
@@ -205,10 +206,9 @@
 		E8D69D8529EA28D200239CCD /* story */ = {
 			isa = PBXGroup;
 			children = (
-				E89F795F29FC3B4700AB972F /* PictureCollectionView.swift */,
 				E8998C6629E8A31A006005A8 /* StoryViewController.swift */,
-				E8998C6C29E8B9CD006005A8 /* ReadStoryViewController.swift */,
 				E8998C6A29E8AC1D006005A8 /* StoryTableViewController.swift */,
+				E8998C6C29E8B9CD006005A8 /* ReadStoryViewController.swift */,
 			);
 			path = story;
 			sourceTree = "<group>";
