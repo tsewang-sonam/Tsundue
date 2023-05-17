@@ -8,11 +8,11 @@ Tsundue is an app that is build to help children to learn Tibetan in more visual
 
 
 # Features:
-
-Multiple stories in different levels of reading skills and saves progress
-Hundreds of words search with visual Image
-Short and efficient vocabulary list
-Fun quiz with different levels
+## Usage
+- Multiple stories in different levels of reading skills and saves progress
+- Hundreds of words search with visual Image
+- Short and efficient vocabulary list
+- Fun quiz with different levels
 
 
 
