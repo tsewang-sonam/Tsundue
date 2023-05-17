@@ -1,12 +1,12 @@
-App Name
+#App Name
 
 Tsundue
 
-Description
+#Description
 
 Tsundue is an app that is build to help children to learn Tibetan in more visual and easier way. The app focus on four main task namely story, wordsearch,vocabulary and quiz. 
 
-Features:
+#Features:
 
 Multiple stories in different levels of reading skills and saves progress
 Hundreds of words search with visual Image
@@ -14,7 +14,7 @@ Short and efficient vocabulary list
 Fun quiz with different levels
 
 
-Screenshots
+#Screenshots
 
 
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-05-16 at 16 56 08](https://github.com/tsewang-sonam/mockapp/assets/91028140/7de05adc-7055-47b5-916d-86a7718d4c2e)
@@ -32,26 +32,28 @@ Screenshots
 
 
 
-Getting Started
+#Getting Started
 
 
-Supported Languages
+#Supported Languages
 
 Swift, CoreData, JSON
 
 
 
-Contact Information
+#Contact Information
 
 tsewangsonam23@gmail.com
 
-Acknowledgments
+#Acknowledgments
 
 This app utilizes the Unsplash API to provide high-quality images
 https://unsplash.com
 
 Also i used Lottie from AirBnb for the Animation
 https://lottiefiles.com
+
+I used Dall.E.2 for making the pictures for story book
 
 and referred to ios Academy in Youtube for how to use API
 
