@@ -38,19 +38,20 @@ Tsundue is an app that is build to help children to learn Tibetan Language in a 
 
 
 
+&nbsp;
+# ---------------------------------------------------------
+<img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/b2e17c55-72bc-47ec-a785-d15f0dc71406" alt="Simulator Screenshot" width="200" />
+<img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/1e12bb93-8d80-4398-9318-2726b8884f55" alt="Simulator Screenshot" width="200" />
+<img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/976ab369-9786-4852-859c-09653f703677" alt="Simulator Screenshot" width="200" />
 
 &nbsp;
 # ---------------------------------------------------------
-<img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/d8413efd-3c2a-47c6-b1a9-95771acee02e" alt="Simulator Screenshot" width="200" />
-<img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/74e6a9e8-46e6-4434-9ba2-14a0e331fbcd" alt="Simulator Screenshot" width="200" />
-<img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/4ba10f76-5a78-4be3-844b-ff42c750a82b" alt="Simulator Screenshot" width="200" />
+ <img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/c716c866-ddc4-4c76-a0c0-8a78d5ef7fee" alt="Simulator Screenshot" width="200" />
+<img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/ef3ed07c-e213-4d30-832a-4fec8afb3809" alt="Simulator Screenshot" width="200" />
 
 &nbsp;
-# ---------------------------------------------------------
- <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/bfcec086-16d3-4671-a2bc-bfd8f248ce47" alt="Simulator Screenshot" width="200" />
-<img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/9168704e-ecdc-4f29-b75b-df81eff125bf" alt="Simulator Screenshot" width="200" />
 
-&nbsp;
+
 
 
 # Supported Languages
