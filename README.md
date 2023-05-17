@@ -25,7 +25,6 @@ Tsundue is an app that is build to help children to learn Tibetan Language in a 
 
 
 #### Story Page
-# ---------------------------------------------------------
 <img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/f48f7484-6a6f-4e43-a1ba-7faaa711c937" alt="Simulator Screenshot" width="200" />
 <img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/4d5168ac-bb60-4b8b-910c-8eefa9a84072" alt="Simulator Screenshot" width="200" />
 <img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/4059fcf8-ccfe-4158-8bf6-93ab141b6742" alt="Simulator Screenshot" width="200" />
@@ -34,7 +33,6 @@ Tsundue is an app that is build to help children to learn Tibetan Language in a 
 &nbsp;
 # ---------------------------------------------------------
 #### Search Page
-# ---------------------------------------------------------
 <img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/b99120eb-d5fc-42f4-ab0b-09020a3e10e0" width="200" />
 <img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/1284a019-65fe-4cf8-8554-663fd135cee2" alt="Simulator Screenshot" width="200" />
 <img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/d4ec221b-e56b-491f-9b77-3f1610a59220" alt="Simulator Screenshot" width="200" />
@@ -44,7 +42,6 @@ Tsundue is an app that is build to help children to learn Tibetan Language in a 
 &nbsp;
 # ---------------------------------------------------------
 #### Vocabulary Page
-# ---------------------------------------------------------
 <img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/b2e17c55-72bc-47ec-a785-d15f0dc71406" alt="Simulator Screenshot" width="200" />
 <img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/1e12bb93-8d80-4398-9318-2726b8884f55" alt="Simulator Screenshot" width="200" />
 <img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/976ab369-9786-4852-859c-09653f703677" alt="Simulator Screenshot" width="200" />
@@ -52,7 +49,6 @@ Tsundue is an app that is build to help children to learn Tibetan Language in a 
 &nbsp;
 # ---------------------------------------------------------
 #### Quiz Page
-# ---------------------------------------------------------
  <img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/c716c866-ddc4-4c76-a0c0-8a78d5ef7fee" alt="Simulator Screenshot" width="200" />
 <img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/ef3ed07c-e213-4d30-832a-4fec8afb3809" alt="Simulator Screenshot" width="200" />
 
