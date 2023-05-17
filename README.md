@@ -6,7 +6,7 @@ Tsundue
 
 Tsundue is an app that is build to help children to learn Tibetan Language in a fun way. The app focus on four main task namely story, wordsearch,vocabulary and quiz.
 
-### I implemented many things that we went in our 680 class. 
+### Implemented things that we went in our 680 class. 
 1. Use of Coredata
 2. Use of packages (Lottie)
 3. Using API to get data from server
