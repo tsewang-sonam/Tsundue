@@ -40,7 +40,7 @@ Fun quiz with different levels
  <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/bfcec086-16d3-4671-a2bc-bfd8f248ce47" alt="Simulator Screenshot" width="200" />
 <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/9168704e-ecdc-4f29-b75b-df81eff125bf" alt="Simulator Screenshot" width="200" />
 
-
+![Banner](./images/banner.png)
 
 # Getting Started
 
