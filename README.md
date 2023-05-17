@@ -4,8 +4,14 @@ Tsundue
 
 # Description
 
-Tsundue is an app that is build to help children to learn Tibetan in more visual and easier way. The app focus on four main task namely story, wordsearch,vocabulary and quiz. 
+Tsundue is an app that is build to help children to learn Tibetan Language in a fun way. The app focus on four main task namely story, wordsearch,vocabulary and quiz.
 
+I implemented many things that we went in our 680 class. 
+## Usage
+1. Use of Coredata
+2. Use of packages (Lottie)
+3. Using API to get data from server
+4. Using dequeReusbale Tables and connecting multiple screens 
 
 # Features:
 ## Usage
@@ -40,14 +46,12 @@ Tsundue is an app that is build to help children to learn Tibetan in more visual
  <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/bfcec086-16d3-4671-a2bc-bfd8f248ce47" alt="Simulator Screenshot" width="200" />
 <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/9168704e-ecdc-4f29-b75b-df81eff125bf" alt="Simulator Screenshot" width="200" />
 
-
-# Getting Started
+&nbsp;
 
 
 # Supported Languages
 
 Swift, CoreData, JSON
-
 
 
 # Contact Information
