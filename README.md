@@ -18,14 +18,13 @@ Fun quiz with different levels
 
 # Screenshots
 
----
 <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/7de05adc-7055-47b5-916d-86a7718d4c2e" alt="Simulator Screenshot" width="200" />
 <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/ca8779ed-6d7b-458d-8f25-1706227c4a62" alt="Simulator Screenshot" width="200" />
 <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/a7225fa0-ff74-48a5-a165-1a9449c6d964" alt="Simulator Screenshot" width="200" />
 <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/d430999e-b952-4aaa-bec2-68a3fc7ad8ce" alt="Simulator Screenshot" width="200" />
 
 &nbsp;
-----------------------------------------------------------------------------------------------------------------------------------------
+# --------------------------------------------------------------------------------------------------------------------------------------
 <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/1aa39b78-0ef1-4cad-9dec-a94a6706f3e5" alt="Simulator Screenshot" width="200" />
 <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/29e6fe21-220b-4c6c-9898-a3d016373adb" alt="Simulator Screenshot" width="200" />
 <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/54206290-18b3-4d39-8d40-a5656b7e9ad7" alt="Simulator Screenshot" width="200" />
