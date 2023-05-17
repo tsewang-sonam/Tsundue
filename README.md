@@ -24,7 +24,7 @@ Fun quiz with different levels
 <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/d430999e-b952-4aaa-bec2-68a3fc7ad8ce" alt="Simulator Screenshot" width="200" />
 
 &nbsp;
-# --------------------------------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------
 <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/1aa39b78-0ef1-4cad-9dec-a94a6706f3e5" alt="Simulator Screenshot" width="200" />
 <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/29e6fe21-220b-4c6c-9898-a3d016373adb" alt="Simulator Screenshot" width="200" />
 <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/54206290-18b3-4d39-8d40-a5656b7e9ad7" alt="Simulator Screenshot" width="200" />
