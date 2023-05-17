@@ -25,18 +25,19 @@ Tsundue is an app that is build to help children to learn Tibetan Language in a 
 
 
 
-
-
 <img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/f48f7484-6a6f-4e43-a1ba-7faaa711c937" alt="Simulator Screenshot" width="200" />
-<img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/ca8779ed-6d7b-458d-8f25-1706227c4a62" alt="Simulator Screenshot" width="200" />
-<img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/a7225fa0-ff74-48a5-a165-1a9449c6d964" alt="Simulator Screenshot" width="200" />
-<img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/d430999e-b952-4aaa-bec2-68a3fc7ad8ce" alt="Simulator Screenshot" width="200" />
+<img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/4d5168ac-bb60-4b8b-910c-8eefa9a84072" alt="Simulator Screenshot" width="200" />
+<img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/4059fcf8-ccfe-4158-8bf6-93ab141b6742" alt="Simulator Screenshot" width="200" />
+<img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/9532c14d-d160-4609-9df2-60a2c108f8f0" alt="Simulator Screenshot" width="200" />
 
 &nbsp;
 # ---------------------------------------------------------
-<img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/1aa39b78-0ef1-4cad-9dec-a94a6706f3e5" alt="Simulator Screenshot" width="200" />
-<img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/29e6fe21-220b-4c6c-9898-a3d016373adb" alt="Simulator Screenshot" width="200" />
-<img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/54206290-18b3-4d39-8d40-a5656b7e9ad7" alt="Simulator Screenshot" width="200" />
+<img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/b99120eb-d5fc-42f4-ab0b-09020a3e10e0" width="200" />
+<img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/1284a019-65fe-4cf8-8554-663fd135cee2" alt="Simulator Screenshot" width="200" />
+<img src="https://github.com/tsewang-sonam/Tsundue/assets/91028140/d4ec221b-e56b-491f-9b77-3f1610a59220" alt="Simulator Screenshot" width="200" />
+
+
+
 
 &nbsp;
 # ---------------------------------------------------------
