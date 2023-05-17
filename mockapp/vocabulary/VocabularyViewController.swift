@@ -21,6 +21,7 @@
         }
         
         var i = 0;
+        
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             
             // dequeReusbale enables us to reuse table with Id "UseAgain" and saves memory
@@ -35,11 +36,8 @@
         }
         
         func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+          
             let passName = vocabList[indexPath.row].description
-            
-//            let detailsVC = VocabController()
-//                    detailsVC.selectedItem = selectedItem
-//
             if let obj = storyboard?.instantiateViewController(withIdentifier: "VocabController") as? VocabController{
                 obj.passName = passName
                 self.navigationController?.pushViewController(obj, animated: true)

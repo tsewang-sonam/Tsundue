@@ -116,7 +116,7 @@ class ReadStoryViewController: UIViewController {
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
-    // add the values to the atributes in the core data
+    // This FUnction adds the values to the atributes in the core data
         func add () {
             let entity = NSEntityDescription.entity(forEntityName: "StoryTitles", in: context)
             let newUser = NSManagedObject(entity: entity!, insertInto: context)
@@ -133,7 +133,7 @@ class ReadStoryViewController: UIViewController {
         
         
 
-
+    // This FUnction fetchs String values from the core data
     func fetch(string: String) -> String? {
         let request = NSFetchRequest<NSFetchRequestResult>(entityName: "StoryTitles")
         request.predicate = NSPredicate(format: "id = %@", string)
@@ -157,7 +157,7 @@ class ReadStoryViewController: UIViewController {
         return nil
     }
         
-        // updates the value of the boolean
+        // THIs function updates the value of the boolean in the core data
         func update(){
             let fetchRequest: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest(entityName: "StoryTitles")
             fetchRequest.predicate = NSPredicate(format: "id = %@", cellName!)

@@ -20,8 +20,6 @@ class VocabController: UIViewController {
     @IBAction func prev(_ sender: Any) {
        
         if (count > 0) {
-            
-           // pageCount.isHidden = false
             count = count - 1
             pageCount.text = "Word : " + count.description
             let currentWord = displayImage()
@@ -34,7 +32,6 @@ class VocabController: UIViewController {
         
         pageCount.text = "Word : " + count.description
         if (count < 10){
-           // pageCount.isHidden = false
             count = count + 1
             pageCount.text = "Word : " + count.description
             let currentWord = displayImage()
@@ -62,7 +59,8 @@ class VocabController: UIViewController {
     let getStringFrom = ArraysOfVocabulary()
     
     
-    
+    // This function checks the string and get the desired array from ArraysOfVocabularys method getString from
+    // Then the desired array names and images are printed
     func displayImage () -> String {
         
         var word = ""
@@ -87,7 +85,6 @@ class VocabController: UIViewController {
         default :
             return "apple"
         }
-        
         
         let img1 = UIImage(named: word)
         pictures.image = img1
@@ -123,7 +120,6 @@ class VocabController: UIViewController {
                     }
                     num += 1
                 }
-              
         }
 
         } catch let error as NSError{

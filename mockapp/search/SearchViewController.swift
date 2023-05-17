@@ -73,7 +73,6 @@ class SearchViewController: UIViewController,UICollectionViewDataSource {
         }
     
     func inputValue(userInput: String)  {
-        
         // pass the userInput (eg. apple ) to getDataFromFile function
         
         if getDataFromFile(word: userInput){
@@ -84,7 +83,11 @@ class SearchViewController: UIViewController,UICollectionViewDataSource {
         }
     }
         
-        func fetchPhoto( query : String) {
+    // This function fetches image from the unsplash API
+    // We set Structs like responseFromAPi and url etc to retrieve the JSON data as in correct order
+    // Note-To-Self :  changing the order of page,per_page or query etc results in error as it do not match the JSON format correctly
+    
+    func fetchPhoto( query : String) {
             
             print ("fetching :  " + query)
             // below after ? the kwywords like query, order_by,per_page are there to filter the images to get
@@ -117,7 +120,8 @@ class SearchViewController: UIViewController,UICollectionViewDataSource {
         
        
         
-        
+        // This function helps to retrieve the word in tibetan from the dictionary txt
+    
         func getDataFromFile(word: String) -> Bool {
             
             print (" In txt " + word)
@@ -156,11 +160,15 @@ class SearchViewController: UIViewController,UICollectionViewDataSource {
            return false
         }
         
+    
+        
         func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
             print (" In collection ")
             return results.count
 
         }
+    
+        
         
         func  collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
             let apiImgUrl = results[indexPath.row].urls.small

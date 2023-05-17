@@ -28,8 +28,8 @@ class QuizImplementViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        num.shuffle()
-         displayImage()
+        num.shuffle()     //shuffles the elements in array to randomize the images
+        displayImage()
         // Do any additional setup after loading the view.
     }
     
@@ -48,13 +48,13 @@ class QuizImplementViewController: UIViewController {
     
     let getStringFrom = ArraysOfVocabulary()
     
+    
+    // This function display four random images on four distinct UIimage
     func displayImage () -> String {
         
         while j < 4 {
             
             let randomNum  =  num[j]
-            
-            
             if temp.contains(randomNum) {
                 j -= 1
             }else {
@@ -72,9 +72,6 @@ class QuizImplementViewController: UIViewController {
         var two =  QuizImplementViewController.fourRandomNum[1]
         var three =  QuizImplementViewController.fourRandomNum[2]
         var four =  QuizImplementViewController.fourRandomNum[3]
-        
-    
-        
         
     let word1 = getStringFrom.vegetables[one].description
         quizWord.text = word1
