@@ -16,7 +16,7 @@ Fun quiz with different levels
 
 # Screenshots
 
-<img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/7de05adc-7055-47b5-916d-86a7718d4c2e" alt="Simulator Screenshot" width="300" />
+<img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/7de05adc-7055-47b5-916d-86a7718d4c2e" alt="Simulator Screenshot" width="200" />
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-05-16 at 16 56 25](https://github.com/tsewang-sonam/mockapp/assets/91028140/ca8779ed-6d7b-458d-8f25-1706227c4a62)
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-05-16 at 17 00 08](https://github.com/tsewang-sonam/mockapp/assets/91028140/4ba10f76-5a78-4be3-844b-ff42c750a82b)
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-05-16 at 17 00 23](https://github.com/tsewang-sonam/mockapp/assets/91028140/bfcec086-16d3-4671-a2bc-bfd8f248ce47)
