@@ -44,7 +44,7 @@ Tsundue is an app that is build to help children to learn Tibetan Language in a 
  <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/bfcec086-16d3-4671-a2bc-bfd8f248ce47" alt="Simulator Screenshot" width="200" />
 <img src="https://github.com/tsewang-sonam/mockapp/assets/91028140/9168704e-ecdc-4f29-b75b-df81eff125bf" alt="Simulator Screenshot" width="200" />
 
-&nbsp;
+
 
 
 # Supported Languages
