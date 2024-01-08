@@ -796,7 +796,7 @@ Onion ཙོང་
 Carrot ལ་ཕུག་དམར་པོ
 Spinach སྔོ་ཚལ་
 Tomatoes ལྡུམ་སྒོང
-Corn
+Corn ལྡུམ་སྒོངa
 Turnip ལ་ཕུག་
 Garlic སྒོག་པ་
 Beans སྲན་མ་

@@ -5,30 +5,38 @@
 //  Created by tsewang sonam on 5/12/23.
 //
 
-import UIKit
 
-class ArraysOfVocabulary: UIViewController {
+
+class ArraysOfVocabulary {
     
     
-    let animal : [String] = ["goat", "cow", "mouse", "monkey", "dog", "rabbit","pig","cat", "bird","sheep","horse"]
-    let colors : [String] = ["blue", "red", "black","green","yellow","white","orange","pink","purple","brown","navy"]
-    let countries : [String] = ["tibet","india","nepal","china","mongolia","afghanistan", "japan","america","bhutan","france","germany"]
-    let vegetables : [String] = ["potato","onion","carrot","spinach","tomatoes","corn","turnip","garlic","beans","mushroom","cabbage"]
-    let days : [String] = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday","","","",""]
-    let nature : [String] = ["mountain","tree","ocean","lake","cloud","wind","ice","rain","snow","river","rock"]
-    let school : [String] =
-        ["student","teacher","book","pen","classroom","pencil","bag","paper","textbook","classmate","ink"]
-    let kitchen : [String] =
-        ["stove","fridge","cup","plate","spoon","knives","utensils","stranier","plate","thermostat","spices"]
-    let ingredients : [String] =
-        ["salt","pepper","garlic","ginger","chilli","spices","egg","cooking_oil","yeast","flour","rice"]
+    private var tableDictionary: [String: [String]] = [:]
+
+        init() {
+            // Initialize your tables here
+        
+            
+            tableDictionary["animal"] = ["goat", "cow", "mouse", "monkey", "dog", "rabbit","pig","cat", "bird","sheep","horse"]
+            tableDictionary["colors"] = ["blue", "red", "black","green","yellow","white","orange","pink","purple","brown","navy"]
+            tableDictionary["countries"] = ["tibet","india","nepal","china","mongolia","afghanistan", "japan","america","bhutan","france","germany"]
+            tableDictionary["vegetables"] = ["potato","onion","carrot","spinach","tomatoes","corn","turnip","garlic","beans","mushroom","cabbage"]
+            tableDictionary["days"] = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday","","","",""]
+            tableDictionary["nature"] = ["mountain","tree","ocean","lake","cloud","wind","ice","rain","snow","river","rock"]
+            tableDictionary["school"] =
+                ["student","teacher","book","pen","classroom","pencil","bag","paper","textbook","classmate","ink"]
+            tableDictionary["kitchen"] =
+                ["stove","fridge","cup","plate","spoon","knives","utensils","stranier","plate","thermostat","spices"]
+            tableDictionary["ingredients"] =
+                ["salt","pepper","garlic","ginger","chilli","spices","egg","cooking_oil","yeast","flour","rice"]
+            // Add more tables as needed
+        }
+    
 
     
+        func getTable(named tableName: String) -> [String]? {
+            return tableDictionary[tableName]
+        }
     
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
@@ -36,4 +44,3 @@ class ArraysOfVocabulary: UIViewController {
     
     
 
-}

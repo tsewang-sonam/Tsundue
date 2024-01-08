@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     //@IBOutlet weak var storyLottie: UIView!
     
     
+
+    
     @IBOutlet weak var quotesDisplay: UILabel!
     
     private var welcomeScreen : LottieAnimationView!
@@ -46,7 +48,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
        
         // Displays a lottie at the starting of the application
-        lottieWelcome()
+       // lottieWelcome()
         
         //Displays a random quotes on the UILable quotes Display on the home screen
         quotesDisplay.text = quotes.randomElement()?.description

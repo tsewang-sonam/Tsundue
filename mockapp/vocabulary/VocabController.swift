@@ -21,7 +21,7 @@ class VocabController: UIViewController {
        
         if (count > 0) {
             count = count - 1
-            pageCount.text = "Word : " + count.description
+            pageCount.text =  count.description
             let currentWord = displayImage()
             getDataFromFile(word : currentWord)
             
@@ -30,22 +30,23 @@ class VocabController: UIViewController {
     }
     @IBAction func next(_ sender: Any) {
         
-        pageCount.text = "Word : " + count.description
+        pageCount.text =  count.description
         if (count < 10){
             count = count + 1
-            pageCount.text = "Word : " + count.description
+            pageCount.text =  count.description
             let currentWord = displayImage()
             getDataFromFile(word : currentWord)
         }
         
     }
+    @IBOutlet weak var englishLabel: UILabel!
     @IBOutlet weak var learnWord: UILabel!
     @IBOutlet weak var pageCount: UILabel!
     @IBOutlet weak var pictures: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        pageCount.text = "Word :  "
+        pageCount.text = ""
         passedWord = passName?.lowercased() ?? ""
         let currentWord = displayImage()
         getDataFromFile(word : currentWord)
@@ -67,21 +68,47 @@ class VocabController: UIViewController {
         
         switch passedWord {
         case "colors" :
-             word = getStringFrom.colors[count].description
+           // word = getStringFrom.getTable(named: color)[count].description
+            if let wordsArray = getStringFrom.getTable(named: "color"),
+               wordsArray.indices.contains(count) {
+                 word = wordsArray[count].description
+                print(word)
+            }
         case "vegetables" :
-             word = getStringFrom.vegetables[count].description
+            if let wordsArray = getStringFrom.getTable(named: "vegetables"),
+               wordsArray.indices.contains(count) {
+                word = wordsArray[count].description
+            }
         case "animal" :
-            word = getStringFrom.animal[count].description
+            if let wordsArray = getStringFrom.getTable(named: "animal"),
+               wordsArray.indices.contains(count) {
+                 word = wordsArray[count].description
+            }
         case "days" :
-            word = getStringFrom.colors[count].description
+            if let wordsArray = getStringFrom.getTable(named: "days"),
+               wordsArray.indices.contains(count) {
+                 word = wordsArray[count].description
+            }
         case "nature" :
-            word = getStringFrom.colors[count].description
+            if let wordsArray = getStringFrom.getTable(named: "nature"),
+               wordsArray.indices.contains(count) {
+                 word = wordsArray[count].description
+            }
         case "countries" :
-            word = getStringFrom.colors[count].description
+            if let wordsArray = getStringFrom.getTable(named: "countries"),
+               wordsArray.indices.contains(count) {
+                 word = wordsArray[count].description
+            }
         case "school" :
-            word = getStringFrom.colors[count].description
+            if let wordsArray = getStringFrom.getTable(named: "school"),
+               wordsArray.indices.contains(count) {
+                 word = wordsArray[count].description
+            }
         case "kitchen" :
-            word = getStringFrom.colors[count].description
+            if let wordsArray = getStringFrom.getTable(named: "kitchen"),
+               wordsArray.indices.contains(count) {
+                 word = wordsArray[count].description
+            }
         default :
             return "apple"
         }
@@ -115,7 +142,8 @@ class VocabController: UIViewController {
                            hi.removeSubrange(range)                  // removing the word and showing the tibetan word
                             print(hi)
                         }
-                       learnWord.text = word + " : "+hi
+                        englishLabel.text = word
+                       learnWord.text = hi
                         return
                     }
                     num += 1

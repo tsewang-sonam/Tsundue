@@ -21,7 +21,7 @@ class QuizTableViewController: UIViewController,UITableViewDelegate, UITableView
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "endlessTables", for: indexPath)
         
-        cell.textLabel?.text = vocabList[i]
+        cell.textLabel?.text = vocabList[i].description
         i += 1
         cell.backgroundColor = UIColor.white
         
@@ -29,15 +29,17 @@ class QuizTableViewController: UIViewController,UITableViewDelegate, UITableView
         
     }
     
-    
+    let vocabList : [String] = [ "Animal", "Vegetables","Colors","Days","Nature","Body_Parts", "Countries","School","Kitchen"]
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let quizObj = self.storyboard?.instantiateViewController(withIdentifier: "QuizImplementViewController") as! QuizImplementViewController
-        self.navigationController?.pushViewController(quizObj, animated: true)
-       
+        let passName = vocabList[indexPath.row].description
+        if let quizObj = self.storyboard?.instantiateViewController(withIdentifier: "QuizImplementViewController") as? QuizImplementViewController{
+            quizObj.passName = passName
+            
+            self.navigationController?.pushViewController(quizObj, animated: true)
+        }
     }
     
-    let vocabList : [String] = [ "Animal", "Vegetables","Days","Colors","Nature","Body_Parts", "Countries","School","Kitchen"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
