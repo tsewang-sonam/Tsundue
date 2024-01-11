@@ -70,7 +70,10 @@ class QuizImplementViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
           scoreCount.text =  "\(totalPoint)/ 10"
-          refreshQuiz()
+       
+        refreshQuiz()
+
+       
        
     }
     
@@ -84,15 +87,21 @@ class QuizImplementViewController: UIViewController {
             if(currentAnswer == selectedButton ){
                 totalPoint += 1
             }
-            
+            clearSelectedState()
             count += 1
             viewDidLoad()
         }
         else{
+            
+            if(currentAnswer == selectedButton ){
+                totalPoint += 1
+            }
+            
             let forwardedElement = totalPoint
             let forwardedTableName = passName
             let numberSend = self.storyboard?.instantiateViewController(withIdentifier: "QuizResultViewController") as! QuizResultViewController
             numberSend.forwardedElement = forwardedElement
+            numberSend.forwardedTableName = forwardedTableName
             self.navigationController?.pushViewController( numberSend, animated: true)
             
         }
@@ -104,7 +113,8 @@ class QuizImplementViewController: UIViewController {
      (one1, two2, three3, four4) = RandomNumberGenerator.RandomNum()
         passedTableName = passName?.lowercased() ?? ""
         displayImage(passedTableName: passedTableName)
-
+    //    print(storeNum)
+        
         buttons = [btn1, btn2, btn3, btn4]
 
            for button in buttons {
@@ -118,6 +128,12 @@ class QuizImplementViewController: UIViewController {
     // This function display four random images on four distinct UIimage
     func displayImage (passedTableName : String) {
 
+        
+      
+        while (storeNum.contains(one1) && storeNum.contains(two2) && storeNum.contains(three3) && storeNum.contains(four4)) {
+            (one1, two2, three3, four4) = RandomNumberGenerator.RandomNum()
+         
+        }
     
     var word1 = ""
         if let wordsArray = getStringFrom.getTable(named: passedTableName),
@@ -166,12 +182,41 @@ class QuizImplementViewController: UIViewController {
     let boxImg4 = UIImage(named: word4)
     img4.image = boxImg4
     img4.contentMode = .scaleAspectFill
-
+        
        
-        let getOneRandom = Int(arc4random_uniform(UInt32(4))) + 1    //getting a random pick from 4 possible selection
+        
+       
+ 
+        
+        var condition = true
+        var getOneRandom: Int = 0
+        
+        var num :Int = 0
+        
+        while condition {
+            
+             getOneRandom = Int(arc4random_uniform(UInt32(4))) + 1    //getting a random pick from 4 possible selection
+           
+            
+            
+            switch getOneRandom {
+            case 1:
+                num = one1
+            case 2:
+                num = two2
+            case 3:
+                num = three3
+            case 4:
+                num = four4
+            default:
+                print("nothing to print")
+            }
+            condition = storeNum.contains(num)
+        }
+        print("   Number is : \(num)")
+        storeNum.append(num)
         currentAnswer = getOneRandom
-
-
+     
         switch getOneRandom {
         case 1:
             getDataFromFile(word: word1)
@@ -213,7 +258,7 @@ class QuizImplementViewController: UIViewController {
     
     func getDataFromFile(word: String) -> Bool {
         
-        print (" In txt " + word)
+       // print (" In txt " + word)
         var keyValue : [String] = []    // array to store values in file
         
         guard let fileUrlDictionary = Bundle.main.path(forResource: "dictionary", ofType: "txt") else {return false}
