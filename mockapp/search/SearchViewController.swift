@@ -36,14 +36,15 @@ class SearchViewController: UIViewController,UICollectionViewDataSource {
         
         var results: [Result] = []
       
-       
-
+    
+    
     
     @IBOutlet weak var input: UITextField!
     
     @IBAction func enterPressed(_ sender: Any) {
         guard let value = input.text else { return }
         inputValue(userInput: value)
+        input.resignFirstResponder()
         // calls method to assign userinput value in view to control
     }
 
@@ -51,11 +52,15 @@ class SearchViewController: UIViewController,UICollectionViewDataSource {
     
     override func viewDidLoad() {
             super.viewDidLoad()
-            // Do any additional setup after loading the view.
             
+        input.backgroundColor = UIColor .lightGray
+            input.addTarget(self, action: #selector(enterPressed), for: .editingDidEndOnExit)
+        
+        // Do any additional setup after loading the view.
             let imgLayout = UICollectionViewFlowLayout()
             imgLayout.itemSize = CGSize(width: 300.0, height: 300.0)
-            let collectionOneImage = UICollectionView(frame: .zero, collectionViewLayout: imgLayout)
+            //imgLayout.collectionView?.backgroundColor = UIColor.white
+        let collectionOneImage = UICollectionView(frame: .zero, collectionViewLayout: imgLayout)
             
             collectionOneImage.register(PictureCollectionView.self, forCellWithReuseIdentifier: PictureCollectionView.id)
             collectionOneImage.dataSource = self
@@ -66,7 +71,19 @@ class SearchViewController: UIViewController,UICollectionViewDataSource {
         override func viewDidLayoutSubviews() {
             super.viewDidLayoutSubviews()
             
-            collectionOneImage?.frame = CGRect(x: 5, y: 450, width: self.view.frame.width, height: self.view.frame.height)
+            var collectionViewFrame = CGRect(x: 5, y: 400, width: self.view.frame.width - 10, height: self.view.frame.height - 150)
+            collectionOneImage?.backgroundColor = UIColor.white
+
+            if UIScreen.main.bounds.height <= 800{ // iPhone SE or smaller
+                collectionViewFrame = CGRect(x: 5, y: 350, width: self.view.frame.width - 10, height: self.view.frame.height - 70)
+            }
+
+            collectionOneImage?.frame = collectionViewFrame
+           
+            //collectionOneImage?.frame = CGRect(x: 5, y: 400, width: self.view.frame.width - 10, height: self.view.frame.height - 150)
+               
+            
+            // Adjust the frame of the collection view
             output.font = UIFont.systemFont(ofSize: 45)
             output.font = UIFont.boldSystemFont(ofSize: 50)
             

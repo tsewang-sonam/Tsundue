@@ -16,7 +16,7 @@ class QuizImplementViewController: UIViewController {
     var passName : String?
     var passedTableName = ""
     
-    var count : Int = 0
+    var count : Int = 1
     var totalPoint : Int =  0
     var currentAnswer : Int = 0
     var selectedButton : Int = 0
@@ -47,6 +47,12 @@ class QuizImplementViewController: UIViewController {
         }
     
     
+    @IBAction func BtnExit(_ sender: UIButton) {
+        
+        let jumpToTable = self.storyboard?.instantiateViewController(withIdentifier: "QuizTableViewController") as! QuizTableViewController
+        
+        self.navigationController?.pushViewController(jumpToTable, animated: true)
+    }
     
     @IBOutlet weak var img1: UIImageView!
     @IBOutlet weak var img2: UIImageView!
@@ -69,7 +75,10 @@ class QuizImplementViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-          scoreCount.text =  "\(totalPoint)/ 10"
+        
+        navigationItem.hidesBackButton = true
+        
+        scoreCount.text = count.description
        
         refreshQuiz()
 
@@ -80,9 +89,9 @@ class QuizImplementViewController: UIViewController {
     
     @IBAction func submitPressed(_ sender: Any) {
        
-        scoreCount.text = "\(totalPoint)/ 10"
+        scoreCount.text = count.description
         
-        if(count < 9){
+        if(count < 10){
             
             if(currentAnswer == selectedButton ){
                 totalPoint += 1
@@ -240,7 +249,7 @@ class QuizImplementViewController: UIViewController {
         clearSelectedState()
         sender.isSelected = true
         selectedButton = sender.tag
-        sender.backgroundColor = UIColor(red: 0.8, green: 0.8, blue: 0.8, alpha: 0.5)
+        sender.backgroundColor = UIColor(red: 0.5, green: 0.5, blue: 0.8, alpha: 0.7)
         
     }
 

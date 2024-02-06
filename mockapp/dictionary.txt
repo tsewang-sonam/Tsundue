@@ -21,7 +21,7 @@ Girl བུ་མོ་
 Gold གསེར་
 Good ཡག་པོ་
 Grandmother རྨོ་ལགས་
-Grass རྩྭ་
+Grass རྩྭ་་
 Hair སྐྲ་
 Hand ལག་པ་
 Hat ཞྭ་མོ་
@@ -152,7 +152,7 @@ Bread བག་ལེབ་
 Brick
 Bridge ཟམ་པ་
 Bucket
-Bug འབུ་་
+Bug འབུ་
 Building ཐོགས་རྩེགས་
 Cabbage ལོང་ཀོར་པད་ཚལ་
 Cactus
@@ -160,603 +160,360 @@ Camera པར་ཆས་
 Candle ཡང་ལཱ་
 Candy ཀ་ར་
 Cane
-Carrot ལ་ཕུག་དམར་པོ
+Carrot ལ་ཕུག་དམར་པོ་
 Castle མཁར་
 Caterpillar
-Cave
-Cedar
-Celery
-Chalk
-Cheese
+Cave བྲག་ཕུག་
+Cheese ཕྱུར་བ་
 Cherry
-Chicken
-Chicks
-Chimney
-Chips
-Chocolate
-Church
-Circus
-Clam
-Clock
-Clothes
-Clouds
-Clown
-Coat
-Cobra
-Coconut
+Chicken བྱ་སྡི་ 
+Church ཡེ་ཤུའི་ལྷ་ཁང་
+Clock ཆུ་ཚོད་
+Clothes དུག་སློག་
+Cloud སྤྲིན་པ་
+Coat སྟོད་ཐུང་
 Coffee
-Coin
-Comet
-Computer
-Cookie
-Corn
-Cotton
-Couch
-Cowbell
+Coin དངུལ་ཀྲམ་
+Computer གློག་ཀླད་
+Corn ཨ་ཤོམ་
+Cotton བལ་
 Crab
-Cracker
-Crane
+Crane བྱ་ཁྲུང་ཁྲུང་
 Cranberry
-Crate
-Crayon
-Creek
-Cricket
+Crate ཤོག་སྒྲོམ་
 Crocodile
 Crown
 Cucumber
-Cupcake
-Curtain
+Curtain ཁྲ་ཡོལ་
 Daisy
-Dance
-Deer
-Desert
+Dance ཞབས་བྲོ་
+Deer ཤ་བ་
+Desert བྱེ་ཐང་
 Diamond
 Dinosaur
 Dirt
 Dishes
-Doghouse
 Dolphin
-Donut
-Door
-Doughnut
+Door སྒོ་
 Dragonfly
-Dress
-Drumstick
+Dress གོས་
 Duckling
-Dustpan
-Earring
-Easter
-Eggplant
-Elephant
-Elevator
-Elf
-Elk
+Eggplant འབེ་རྒན་
+Elephant གླང་ཆེན་
+Elevator གློག་གི་སྐས་འཛེགས་
+Elk རི་དྭགས་
 Eraser
-Eskimo
-Eye
-Eyebrow
+Eye མིག་
 Fairy
-Fall
-Fan
-Farmhouse
-Farmer
-Feather
+Fall རིལ་
+Fan རླུང་འཁོར་
+Farmer ཞིང་པ་
+Feather བྱ་སྒྲོ་
 Fence
-Fiddle
-Fingernail
-Fire
-Fireworks
-Fisherman
-Flag
-Flamingo
-Flashlight
-Flour
-Flowerpot
-Flute
-Fly
-Fog
-Football
-Footprints
-Fork
-Fox
-Frame
-Frog
-Fruitcake
-Frying pan
-Funnel
-Furniture
-Gargoyle
-Gasoline
-Gecko
-Gift
+Fire མེ་
+Fireworks ཤོག་འབར་
+Fisherman ཉ་པ་
+Flag དར་ཆ་
+Flour གྲོ་ཞིབ་
+Flute གླིང་བུ་
+Fly འཕུར་
+Fog སྨུག་པ་
+Football རྐང་རྩེད་སྤོ་ལོ་
+Fox ཝ་
+Frog སྦལ་པ་
+Furniture ཁང་པའི་ཡོ་ཆས་
+Gasoline སྣུམ་
+Gift རྔན་པ་
 Giraffe
-Glass
-Glitter
-Glove
-Glowworm
-Goat
-Goldfish
-Gourd
-Grasshopper
-Gravel
-Gravy
-Greenhouse
+Glass ཤེལ་
+Glove ལག་ཤུབས་
+Goat ར་
+Goldfish གསེར་ཉ་
 Greeting
-Grill
-Hail
-Hairbrush
-Hamburger
-Hammock
-Hamster
-Handbag
-Handkerchief
-Handwriting
-Hatbox
-Haystack
-Headphones
-Heart
-Hedgehog
-Helicopter
-Hibiscus
-High chair
-Hill
-Hippopotamus
-Honey
-Hopscotch
-Hornet
-Housefly
-Hummingbird
-Hurricane
-skate
-Icicle
-Igloo
-Ink
-Insect
-Jaguar
-Jam
-Jelly
-Jellyfish
-Jet
-Jewelry
-Kaleidoscope
-Kangaroo
-Ketchup
-Key
-Keyboard
-Kickball
-Kite
-Kiwi
-Knapsack
-Kneepad
-Knickknack
-Koala
-Ladybug
-Lamp
-Lantern
-Lanyard
-Laptop
-Lasso
-Latte
-Lava
-Leaflet
-Lemonade
-Leopard
-Library
-Lighthouse
-Lightning
-Lime
-Limestone
-Lion
-Lipstick
-Lizard
-Lobster
-Lock
-Lollipop
-Lynx
-Macaroni
-Magazine
-Magnet
-Mailbox
-Manatee
-Mandarin
-Maracas
-Marker
-Marshmallow
-Mask
-Medicine
-Megaphone
-Melon
-Menorah
-Mermaid
-Message
+Hail སེ་ར་
+Hair  སྐྲ་
+Handwriting ཡིག་གཟུགས་
+Heart སྙིང་
+Hill རི་འབུར་
+Honey སྦྲང་རྩི་
+Housefly སྦྲང་བུ་
+Ink སྣག་ཚ་
+Insect འབུ་སྲིན་
+Jewelry ནོར་བུ་
+Key ལྡི་མིག་
+Kite ཤོག་བྱ་
+Lamp གློག་མེ་
+Leopard གཟིག་
+Library དཔེ་མཛོད་ཁང་
+Lighthouse གློག་མེ་ཁང་
+Lightning གློག་
+Light གློག་
+Lizard རྩང་པ་ཁ་རལ་
+Lock སྒོ་ལྕགས་
+Magazine དུས་དེབ་
+Magnet ཁབ་ལེན་
+Mailbox ཡིག་སྒམ་
+Mask ཁ་རས་
+Medicine སྨན་
+Message ལན་
 Microphone
 Microscope
-Milk
-Milkshake
-Minivan
-Mirror
-Mistletoe.
-Microphone
-Milkshake
-Mitten
-Model
-Money
-Monkey
+Milk འོ་མ་
+Mirror མེ་ལོང་
+Money ཕྱག་དངུལ་
 Monster
-Moonlight
-Moose
-Morning
-Motorcycle
-Mountain
-Mouse
-Mouth
-Movie
-Muffin
+Moonlight ཟླ་འོད་
+Morning སྔ་དྲོ་
+Motorcycle སྦག་སྦག་
+Mountain རི་
+Mouth ཁ་
+Movie གློག་བརྙན་
 Muscle
-Music
-Nail
-Napkin
-Nature
-Necklace
-Needle
-Nest
-Net
-Newspaper
-Ninja
-Noodle
-Notebook
-Ocean
-Octopus
-Oil
-Olive
-Opera
-Orchid
-Ostrich
-Otter
-Oven
-Owl
-Oyster
-Paint
-Palm
-Pancake
-Panda
-Pants
-Paper
-Parade
+Music རོལ་དབྱངས་
+Nail སེན་མོ་
+Nature རང་བྱུང་
+Needle ཁབ་
+Newspaper སར་ཤོག་
+Noodle ཐུག་པ་
+Notebook དེབ་
+Ocean རྒྱ་མཚོ་
+Oil སྣུམ་
+Owl འུག་པ་
+Paint ཚོན་
+Palm ཐལ་མོ་
+Panda བྱི་ལ་དོམ་
+Pants གོས་ཐུང་
+Paper ཤོག་བུ་
+Parade ཁྲོམ་བསྐོར་
 Parrot
-Party
-Pasta
-Pastry
-Paw
-Peach
-Peanut
-Pear
-Pencil
-Penguin
-Piano
-Pickles
-Pie
-Piggy
-Pillow
+Party ཚོགས་པ་
+Peach ཁམ་བུ་
+Pencil ཞ་སྨྱུག་
+Pillow སྔས་མགོ་
 Pineapple
-Pirate
-Pizza
-Plane
-Plant
-Plate
-Playground
-Plum
+Plane གནམ་གྲུ་
+Plant རྩི་ཤིང་
+Plate སྡེར་མ་
+Playground རྩེད་ཐང་
 Pocket
-Pony
 Pool
 Popcorn
-Postcard
-Pumpkin
-Puppet
-Puzzle
-Queen
-Question
+Queen རྒྱལ་མོ་
+Question དྲི་བ་
 Quilt
-Rabbit
-Radio
-Rain
-Rainbow
-Raincoat
-Raindrop
-Rake
-Raspberry
-Reading
+Radio སྒྲ་ཀློག་
+Rain ཆར་བ་
+Rainbow འཇའ་
+Raincoat ཆར་གོས་
+Reading ཀློག་
 Recipe
-Record
 Reflection
-Reindeer
-Restaurant
-Ribbon
-Rice
+Restaurant ཟ་ཁང་
+Rice འབྲས་
 Ring
-River
+River གཙང་པོ་
 Robot
-Rock
-Rose
-Rubber
-Ruby
-Ruler
-Sailboat
-Salad
-Sand
-Sandcastle
-Sandwich
-Santa
-Sardine
-Sauce
+Rock རྡོ་
+Rose རྒྱ་སེ་
+Ruler ཐིག་ཤིང་
+Salad གྲང་ཚལ་
+Sand བྱེ་མ་
 Sausage
-Scarf
-School
+Scarf ཁ་དཀྲིས་
+School སླབ་གྲྭ་
 Scissors
-Scooter
-Scorpion
-Scout
-Sculpture
-Sea
-Seagull
-Seahorse
+Scorpion སྡིག་པ་ར་རྩ་
+Sea མཚོ་
 Seal
-Seashell
-Seaweed
-Sesame
-Shampoo
 Shark
-Sheep
-Shirt
-Shoe
-Shopping
-Shorts
+Shirt འོག་འཇུག་
+Shoe ལྷམ་གོ་
+Shopping ཉོ་ཆ་རྒྱག་
 Shovel
-Shrimp
-Singing
-Sink
-Skateboard
+Sing གཞས་གཏོང་བ་
 Skeleton
-Skiing
 Skull
-Sky
-Sled
-Sleigh
+Sky གནམ་
 Slippers
-Slow
+Slow དལ་པོ་
 Smile
 Snail
-Snake
-Sneakers
-Snow
-Snowball
-Snowflake
-Snowman
-Soap
+Snake སྦྲུལ་
+Snow གངས་
+Soap ཡི་ཙི་
 Socks
-Soda
-Sofa
 Soup
 Space
-Spaghetti
 Sparrow
-Spear
-Spider
-Sponge
-Spoon
-Sports
-Spring
-Sprinkles
-Squirrel
-Stairs
-Star
-Starfish
-Stationery
-Steak
-Stethoscope
-Stomach
-Stone
-Stopwatch
-Straw
-Strawberry
-String
-Submarine
-Suitcase
-Summer
-Sunflower
-Sunglasses
-Sunset
+Spear མདུང་
+Spider སྡོམ་
+Spoon ཐུར་མ་
+Sports རྩེད་རིགས་
+Spring དཔྱིད་ཀ་
+Stairs སྐས་འཛེགས་
+Star སྐར་མ་
+Stomach གྲོད་ཁོག་
+Stone རྡོ་
+String སྐུད་པ་
+Summer དབྱར་ཁ་
+Sunflower ཉི་མ་མེ་ཏོག་
+Sunset ཉི་ནུབ་
 Superhero
-Surfboard
-Sushi
 Swan
-Sweater
-Swimming
+Swimming རྐྱལ་
 Swing
-Sword
-Taco
+Sword རལ་གྲི་
 Tail
-Tangerine
-Tap
-Target
-Tea
-Teapot
-Telephone
+Tailor ཚེམ་བཟོ་
+Target དམིགས་ཡུལ་
+Tea ཇ་
+Telephone ཁ་པར་
 Telescope
-Television
-Tennis
-Tent
-Textbook
-Theater
+Television བརྙན་འཕྲིན་
+Tent གུར་
+Textbook སློབ་དེབ་
 Thermometer
-Throne
-Thunder
-Ticket
-Tiger
-Time
-Toad
-Toast
-Toilet
-Tomato
-Toothbrush
-Toothpaste
-Top
-Tortoise
-Toucan
-Towel
-Toy
-Tractor
-Traffic
-Train
-Trampoline
-Transportation
+Throne རྒྱལ་ཁྲི་
+Thunder གློག་འཁྱུག་
+Ticket འགྲུལ་ཤོག་
+Tiger སྟག་
+Time དུས་ཚོད་
+Toilet གསང་སྤྱོད་་
+Toothbrush སོ་འཁྲུ་
+Toothpaste སོ་སྨན་་
+Top སྟེང་
+Tortoise རུས་སྦལ་
+Towel ཨ་ཅོར་
+Toy རྩེད་ཆས་
+Train མེ་འཁོར་
+Transportation འགྲུལ་སྐྱོད་
 Trash
-Travel
-Tree
-Triangle
-Tricycle
-Trombone
-Trophy
+Travel འགྲུལ་རྒྱག་
+Triangle ཟུར་གསུམ་
+Trophy རྒྱལ་རྟགས་
 Truck
-Truck
-Trust
-Truth
-Try
-Tumble
-Turbulent
-Turn
-Tutor
-Twirl
+Trust ཡིད་ཆེས་
+Truth བདེན་པ་
+Try ཚོད་ལྟ་
+Turn བསྒྱུར་བ་
+Tutor སློབ་སྟོན་པ་
 Twist
-Two
-Type
-Typical
+Two གཉིས་པ་
+Type དབྱེ་
+Typical སྤྱིར་བཏང་
 Ultimate
-Umbrella
-Unanimous
-Unavailable
+Umbrella ཉི་གདུགས་
+Unanimous ཕྱོགས་གཅིག་ནས་
+Unavailable མེད་པ་
 Unbelievable
-Uncanny
-Uncomfortable
-Unconventional
-Undeniable
+Uncomfortable སྟབས་མི་བདེ་བ་
+Unconventional རྒྱུན་ལས་མིན་པ་
+Undeniable སྐྱོན་བརྗོད་མེད་པ་
 Underestimate
-Undoubtedly
+Undoubtedly ཐེ་ཚོམ་མེད་
 Unforgettable
 Unfortunate
 Unique
-Unity
+Unity གཅིག་སྒྲིལ་
 Universal
-Unknown
+Unknown མ་ཤེས་པ་
 Unleash
-Unlimited
+Unlimited ཚད་མེད་
 Unprecedented
 Unpredictable
-Unquestionably
+Unquestionable ཐེ་ཚོམ་མེད་པ་
 Unreasonable
 Unveil
 Upcoming
 Update
-Upgrade
-Uplift
-Upset
+Upgrade ཡར་རྒྱས་
+Uplift ཡར་འཕེལ་
+Upset སེམས་ཁྲལ་
 Urban
-Urgent
+Urgent མྱུར་དུ་
 Usable
-Useless
-Utilize
-Vacuum
-Valuable
+Useless ཕན་ཐོགས་མེད་པ་
+Utilize ལག་ལེན་བྱོས་
+Valuable རིན་ཐང་ལྡན་པ་
 Variety
-Various
-Vast
-Vector
-Vehicle
-Venture
-Verdict
-Versatile
-Version
-Vertical
-Vibrant
-Video
-View
-Villa
-Village
+Various འདྲ་མིན་
+Vast ཆེན་པོ་
+Vehicle སྣུམ་འཁོར་
+Video གློག་བརྙན་
+View མཐོང་སྣང་
+Village གྲོང་གསེབ་
 Vintage
-Violate
+Violate ཁྲིམས་འགལ་
 Virtual
 Vision
-Vital
-Vocabulary
-Voice
+Vital གལ་ཆེ་
+Vocabulary ཚིག་མཛོད་
+Voice ངག་
 Void
 Volatile
 Volume
-Vote
-Vulnerable
+Vote འོས་ཤོག་
+Vulnerable གནོད་ཉེན་ཆེ་བ་
 Wagon
-Wait
-Wake
-Walk
-Wall
-Want
-War
-Warm
+Wait བསྒུག་
+Wake གཉིད་སད་པ་
+Walk གོམ་པ་རྒྱག་
+Wall གྱང་
+Want འདོད་པ་
+War དམག་འཁྲུག་
+Warm དྲོ་པོ་
 Warning
-Wash
-Waste
-Watch
-Water
-Wave
-Way
-Weak
-Wealth
-Weapon
+Wash བཀྲུས་
+Waste འཕྲོ་བརླག་གཏོང་
+Watch ལྟ་
+Water ཆུ་
+Wave རྦ་རླབས་
+Way ལམ་
+Weak སྐྱོ་པོ་
+Wealth རྒྱུ་
+Weapon མཚོན་ཆ་
 Wear
-Weather
+Weather གནམ་གཤིས་
 Web
 Wedding
-Week
-Weight
+Week བདུན་ཕྲག་
+Weight ལྗིད་ཚད་
 Welcome
 Welfare
 Well-being
-Western
-Whirl
+Western ནུབ་ཕྱོགས་
 Whisper
-Whole
+Whole ཆ་ཚང་
 Wicked
-Wide
-Wild
-Willing
-Win
-Wind
-Window
+Wide རྒྱ་ཆེར་
+Wild རི་དྭགས་
+Willing འདོད་པ་
+Win རྒྱལ་ཁ་ཐོབ་
+Wind རླུང་
+Window སྒེའུ་ཁུང་
 Wine
-Wing
-Winner
-Winter
-Wisdom
-Wise
-Wish
-Withdraw
-Within
-Without
-Witness
-Wizard
-Woman
-Wonderful
-Word
-Work
-World
-Worry
+Wing གཤོག་པ་
+Winner རྒྱལ་ཁ་ཐོབ་པ་
+Winter དགུན་
+Wisdom ཤེས་རབ་
+Wise ཤེས་རབ་ཅན་
+Wish འདོད་པ་
+Withdraw ཕྱིར་འཐོན་
+Within ནང་
+Without མེད་པ་
+Woman བུད་མེད་
+Wonderful ངོ་མཚར་ཆེ་
+Word ཚིག་
+Work ལས་ཀ་
+World འཛམ་གླིང་
+Worry སེམས་ཁྲལ་བྱེད་
 Worth
 Would
-Wound
-Wrap
+Wound རྨ་
+Wrap དཀྲིས་
 Wreck
-Write
-Wrong
+Write བྲིས་
+Wrong ནོར་འཁྲུལ་
 Year
 Yes
 Yesterday

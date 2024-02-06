@@ -30,6 +30,7 @@
             cell.textLabel?.text = vocabList[i]
             i += 1
             cell.backgroundColor = UIColor.white
+            cell.textLabel?.textColor = UIColor.black
             
             return cell
             
@@ -55,6 +56,15 @@
             tableview.delegate = self
             tableview.dataSource = self
             tableview.register(UITableViewCell.self, forCellReuseIdentifier: "UseAgain")
+            
+            let backButton = UIBarButtonItem(title: " Back", style: .plain, target: self, action: #selector(backButtonTapped))
+               navigationItem.leftBarButtonItem = backButton
+           }
+        
+        @objc func backButtonTapped() {
+           // if let targetViewController = navigationController?.viewControllers.first(where: { $0 is ViewController }) {
+                navigationController?.popToRootViewController(animated: true)
+           // }
             
         }
        

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E807F3DA2A0AEF320007E266 /* VocabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E807F3D92A0AEF320007E266 /* VocabController.swift */; };
 		E81D612C2B4C6607007EF23E /* QuizResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81D612B2B4C6607007EF23E /* QuizResultViewController.swift */; };
+		E85102082B5887AE0063F0A0 /* StoryEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85102072B5887AE0063F0A0 /* StoryEndViewController.swift */; };
 		E863C8812A01A34900D09DCB /* welcome.json in Resources */ = {isa = PBXBuildFile; fileRef = E863C8802A01A34800D09DCB /* welcome.json */; };
 		E863C8842A01F23600D09DCB /* vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = E863C8832A01F23600D09DCB /* vocab.json */; };
 		E887E73D29F86A6A00FB1AD8 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E887E73C29F86A6A00FB1AD8 /* Lottie */; };
@@ -61,6 +62,7 @@
 /* Begin PBXFileReference section */
 		E807F3D92A0AEF320007E266 /* VocabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabController.swift; sourceTree = "<group>"; };
 		E81D612B2B4C6607007EF23E /* QuizResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultViewController.swift; sourceTree = "<group>"; };
+		E85102072B5887AE0063F0A0 /* StoryEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryEndViewController.swift; sourceTree = "<group>"; };
 		E863C8802A01A34800D09DCB /* welcome.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = welcome.json; sourceTree = "<group>"; };
 		E863C8832A01F23600D09DCB /* vocab.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = vocab.json; sourceTree = "<group>"; };
 		E887E73E29F86A8700FB1AD8 /* read.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = read.json; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 				E8998C6629E8A31A006005A8 /* StoryViewController.swift */,
 				E8998C6A29E8AC1D006005A8 /* StoryTableViewController.swift */,
 				E8998C6C29E8B9CD006005A8 /* ReadStoryViewController.swift */,
+				E85102072B5887AE0063F0A0 /* StoryEndViewController.swift */,
 			);
 			path = story;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 				E89F796029FC3B4700AB972F /* PictureCollectionView.swift in Sources */,
 				E8AAED632A0AD5C800EFF474 /* VocabularyViewController.swift in Sources */,
 				E89F795E29FC391300AB972F /* SearchViewController.swift in Sources */,
+				E85102082B5887AE0063F0A0 /* StoryEndViewController.swift in Sources */,
 				E8998C6729E8A31A006005A8 /* StoryViewController.swift in Sources */,
 				E8998C6D29E8B9CD006005A8 /* ReadStoryViewController.swift in Sources */,
 				E8998C3929E88FDF006005A8 /* ViewController.swift in Sources */,

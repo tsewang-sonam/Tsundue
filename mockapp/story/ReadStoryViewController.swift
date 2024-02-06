@@ -9,6 +9,10 @@ import UIKit
 import CoreData
 
 class ReadStoryViewController: UIViewController {
+    
+    var cellName: String?
+    var StoryLength : String?
+    
     var count = 0
     
     // Following is implementation of next button
@@ -26,10 +30,11 @@ class ReadStoryViewController: UIViewController {
 
                 update()
                count = 4
-                storyWords.text = "End of Story"
-            
-                let backToTable = self.storyboard?.instantiateViewController(withIdentifier: "StoryTableViewController") as! StoryTableViewController
-                self.navigationController?.pushViewController(backToTable , animated: true)
+              //  storyWords.text = "End of Story"
+            let forwardLengthName = StoryLength
+                let jumpToEnd = self.storyboard?.instantiateViewController(withIdentifier: "StoryEndViewController") as! StoryEndViewController
+                jumpToEnd.StoryLength = forwardLengthName
+                self.navigationController?.pushViewController(jumpToEnd , animated: true)
         }
     }
     
@@ -45,8 +50,6 @@ class ReadStoryViewController: UIViewController {
             countLabel.text = "Page : " + String(count + 1) + " / 4"
         }else {
                 count = 0
-            let backToTable2 = self.storyboard?.instantiateViewController(withIdentifier: "StoryTableViewController") as! StoryTableViewController
-            self.navigationController?.pushViewController(backToTable2 , animated: true)
         }
     }
     
@@ -54,21 +57,34 @@ class ReadStoryViewController: UIViewController {
     @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var countLabel: UILabel!
     
- 
-   
-        var cellName: String?
+    @IBAction func exitBtn(_ sender: UIButton) {
         
+        let forwardedWord = StoryLength
+            let jumpToTabel = self.storyboard?.instantiateViewController(withIdentifier: "StoryTableViewController") as! StoryTableViewController
+        
+        jumpToTabel.forwardedWord = forwardedWord
+            self.navigationController?.pushViewController(jumpToTabel , animated: true)
+    }
+    
+   
+        
+    
         override func viewDidLoad() {
             super.viewDidLoad()
             
-        //cellName get the name of button from previous cell tapped in Viewcontroller
-           guard let cellName = cellName else { return }
+            navigationItem.hidesBackButton = true
             
+        //cellName get the name of button from previous cell tapped in Viewcontroller And also we get the length of story (eg. short, long etc)
+           guard let cellName = cellName else { return }
+            guard let StoryLength = StoryLength else { return }
             
             extractFromFile(word: cellName)
             
             //Function add is meant adding the data to the Coredata
             add ()
+            
+            print(StoryLength);
+            updateLabelWithSentence()
             
             storyWords.text = tenSentences.first
             countLabel.text = "Page : " + String(count + 1) + " / 4"
@@ -175,6 +191,31 @@ class ReadStoryViewController: UIViewController {
                 print("Fetch error: \(error), \(error.userInfo)")
             }
         }
+    
+    
+    func updateLabelWithSentence() {
+         let sentence = tenSentences[count]
+
+         // Set different font sizes for different sentences
+         let fontSize: CGFloat
+         switch StoryLength {
+         case "short":
+             fontSize = 33.0
+         case "moderate":
+             fontSize = 25.0
+         case "long":
+             fontSize = 20.0
+         default:
+             fontSize = 10.0
+         }
+
+         let attributedString = NSAttributedString(
+             string: sentence,
+             attributes: [NSAttributedString.Key.font: UIFont.systemFont(ofSize: fontSize)]
+         )
+
+         storyWords.attributedText = attributedString
+     }
 
 
 

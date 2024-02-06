@@ -24,6 +24,7 @@ class QuizTableViewController: UIViewController,UITableViewDelegate, UITableView
         cell.textLabel?.text = vocabList[i].description
         i += 1
         cell.backgroundColor = UIColor.white
+        cell.textLabel?.textColor = UIColor.black
         
         return cell
         
@@ -32,6 +33,7 @@ class QuizTableViewController: UIViewController,UITableViewDelegate, UITableView
     let vocabList : [String] = [ "Animal", "Vegetables","Colors","Days","Nature","Body_Parts", "Countries","School","Kitchen"]
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+       
         let passName = vocabList[indexPath.row].description
         if let quizObj = self.storyboard?.instantiateViewController(withIdentifier: "QuizImplementViewController") as? QuizImplementViewController{
             quizObj.passName = passName
@@ -47,6 +49,16 @@ class QuizTableViewController: UIViewController,UITableViewDelegate, UITableView
         tableview.delegate = self
         tableview.dataSource = self
         tableview.register(UITableViewCell.self, forCellReuseIdentifier: "endlessTables")
+        
+        let backButton = UIBarButtonItem(title: " Back", style: .plain, target: self, action: #selector(backButtonTapped))
+           navigationItem.leftBarButtonItem = backButton
+       }
+
+       @objc func backButtonTapped() {
+           if let targetViewController = navigationController?.viewControllers.first(where: { $0 is QuizViewController }) {
+               navigationController?.popToViewController(targetViewController, animated: true)
+           }
+        
     }
 
 }

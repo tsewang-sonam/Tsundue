@@ -9,9 +9,11 @@ import UIKit
 
 class VocabController: UIViewController {
     
-    var count = 0
+    var count = 1
     var passName : String?
     var passedWord = ""
+    
+    
     
     //   getting arrays from the class that stores all the arrays
      let getWordFrom = SearchInFile()
@@ -21,32 +23,64 @@ class VocabController: UIViewController {
        
         if (count > 0) {
             count = count - 1
-            pageCount.text =  count.description
+            PageNum.text =  count.description
             let currentWord = displayImage()
             getDataFromFile(word : currentWord)
             
         }
         
     }
-    @IBAction func next(_ sender: Any) {
+    @IBAction func next(_ sender: UIButton) {
         
-        pageCount.text =  count.description
+//        let buttonImage = UIImage(named: "square-arrow-2")
+//
+//               // Set the image for the normal state of the sender button
+//               sender.setImage(buttonImage, for: .normal)
+//
+//               // Adjust the image size to fit the button
+//               sender.imageView?.contentMode = .scaleAspectFill
+//
+//        
+        PageNum.text =  count.description
         if (count < 10){
             count = count + 1
-            pageCount.text =  count.description
+            PageNum.text =  count.description
             let currentWord = displayImage()
             getDataFromFile(word : currentWord)
+        }else{
+            if let navigationController = self.navigationController {
+                for viewController in navigationController.viewControllers {
+                    
+                    if viewController is VocabularyViewController {
+                        navigationController.popToViewController(viewController, animated: true)
+                        break
+                    }
+                }
+            }
         }
         
     }
+    
+    
+    
+    @IBAction func BtnExit(_ sender: UIButton) {
+        
+        let jumpToTable = self.storyboard?.instantiateViewController(withIdentifier: "VocabularyViewController") as! VocabularyViewController
+        
+        self.navigationController?.pushViewController(jumpToTable, animated: true)
+    }
+    
     @IBOutlet weak var englishLabel: UILabel!
     @IBOutlet weak var learnWord: UILabel!
-    @IBOutlet weak var pageCount: UILabel!
+  //  @IBOutlet weak var pageCount: UILabel!
     @IBOutlet weak var pictures: UIImageView!
+    @IBOutlet weak var PageNum: UILabel!
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        pageCount.text = ""
+        navigationItem.hidesBackButton = true
+        PageNum.text = count.description
         passedWord = passName?.lowercased() ?? ""
         let currentWord = displayImage()
         getDataFromFile(word : currentWord)

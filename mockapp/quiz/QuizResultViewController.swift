@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Lottie
 
 class QuizResultViewController: UIViewController {
     
@@ -16,14 +17,22 @@ class QuizResultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationItem.hidesBackButton = true
+        
         guard let forwardedElement = forwardedElement else { return }
         guard let forwardedTableName = forwardedTableName else { return }
         
         TotalPoint.text = "\(forwardedElement) / 10 "
+        
+        lottieAnimation()
     }
+    
+    
+    
     
     @IBOutlet weak var TotalPoint: UILabel!
 
+    @IBOutlet weak var QuizLottie: UIView!
     
     @IBAction func RetryBtn(_ sender: UIButton) {
         let passName = forwardedTableName
@@ -33,10 +42,32 @@ class QuizResultViewController: UIViewController {
     }
     
     @IBAction func HomeBtn(_ sender: UIButton) {
+        if let navigationController = self.navigationController {
+                navigationController.popToRootViewController(animated: true)
+            }
     }
-    @IBAction func ContinueBtn(_ sender: Any) {
+    @IBAction func ContinueBtn(_ sender: UIButton) {
         let back = self.storyboard?.instantiateViewController(withIdentifier: "QuizTableViewController") as! QuizTableViewController
         self.navigationController?.pushViewController( back, animated: true)
+        
+    }
+    
+    func lottieAnimation(){
+        
+        let animation = LottieAnimationView(name : "vocab")
+        animation.translatesAutoresizingMaskIntoConstraints = false
+        
+        QuizLottie.addSubview(animation)
+        
+        NSLayoutConstraint.activate([
+            animation.topAnchor.constraint(equalTo: QuizLottie.topAnchor),
+            animation.leadingAnchor.constraint(equalTo: QuizLottie.leadingAnchor),
+            animation.trailingAnchor.constraint(equalTo: QuizLottie.trailingAnchor),
+            animation.bottomAnchor.constraint(equalTo: QuizLottie.bottomAnchor)
+        ])
+        
+        animation.play()
+        animation.loopMode = .loop
         
     }
     

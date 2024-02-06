@@ -11,7 +11,7 @@ import CoreData
 class StoryTableViewController: UIViewController,UITableViewDelegate, UITableViewDataSource {
    
     // lenght store the name passed from short,moderate and long buttons
-    var lenght = ""
+    var StoryLength = ""
     
     var cellName = ""
     
@@ -21,14 +21,27 @@ class StoryTableViewController: UIViewController,UITableViewDelegate, UITableVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+        
         tableview.dataSource = self
         tableview.delegate = self
         
         // retrieving the name passed
         guard let forwardedWord = forwardedWord else { return }
-        lenght = forwardedWord
+        StoryLength = forwardedWord
         
+        navigationItem.hidesBackButton = true
         
+        let backButton = UIBarButtonItem(title: " Back", style: .plain, target: self, action: #selector(backButtonTapped))
+           navigationItem.leftBarButtonItem = backButton
+       }
+
+       @objc func backButtonTapped() {
+           if let targetViewController = navigationController?.viewControllers.first(where: { $0 is StoryViewController }) {
+               navigationController?.popToViewController(targetViewController, animated: true)
+           }
+        
+      
     }
     
     // names for the Tables
@@ -39,10 +52,11 @@ class StoryTableViewController: UIViewController,UITableViewDelegate, UITableVie
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedCell = tableView.cellForRow(at: indexPath)
         let cellTitle = selectedCell?.textLabel?.text ?? ""
-            cellName = lenght + cellTitle
+            cellName = StoryLength + cellTitle
         
         if let vcE = storyboard?.instantiateViewController(withIdentifier: "ReadStoryViewController") as? ReadStoryViewController{
             vcE.cellName = cellName
+            vcE.StoryLength = StoryLength
             self.navigationController?.pushViewController(vcE, animated: true)
         }
             
@@ -60,7 +74,8 @@ class StoryTableViewController: UIViewController,UITableViewDelegate, UITableVie
         //getting the title of story from the array "storiesTitles"
         cell.textLabel?.text = storiesTitles[i].description
         i += 1
-        
+        cell.backgroundColor = UIColor.white
+        cell.textLabel?.textColor = UIColor.black
        
                
         //set UIImageView instance that allow us to have use desired image in the cell
@@ -68,7 +83,7 @@ class StoryTableViewController: UIViewController,UITableViewDelegate, UITableVie
         
         
         // Using wordForCOre , we are fetching data from the CoreData
-        let wordForCore = lenght+(cell.textLabel?.text ?? "")
+        let wordForCore = StoryLength+(cell.textLabel?.text ?? "")
             let instanceOfRead = ReadStoryViewController()
             let resultString = instanceOfRead.fetch(string: wordForCore)
        
