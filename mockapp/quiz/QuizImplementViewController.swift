@@ -137,7 +137,6 @@ class QuizImplementViewController: UIViewController {
     // This function display four random images on four distinct UIimage
     func displayImage (passedTableName : String) {
 
-        
       
         while (storeNum.contains(one1) && storeNum.contains(two2) && storeNum.contains(three3) && storeNum.contains(four4)) {
             (one1, two2, three3, four4) = RandomNumberGenerator.RandomNum()

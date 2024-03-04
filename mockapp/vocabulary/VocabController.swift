@@ -21,7 +21,7 @@ class VocabController: UIViewController {
     
     @IBAction func prev(_ sender: Any) {
        
-        if (count > 0) {
+        if (count > 1) {
             count = count - 1
             PageNum.text =  count.description
             let currentWord = displayImage()
@@ -103,7 +103,7 @@ class VocabController: UIViewController {
         switch passedWord {
         case "colors" :
            // word = getStringFrom.getTable(named: color)[count].description
-            if let wordsArray = getStringFrom.getTable(named: "color"),
+            if let wordsArray = getStringFrom.getTable(named: "colors"),
                wordsArray.indices.contains(count) {
                  word = wordsArray[count].description
                 print(word)
@@ -140,6 +140,11 @@ class VocabController: UIViewController {
             }
         case "kitchen" :
             if let wordsArray = getStringFrom.getTable(named: "kitchen"),
+               wordsArray.indices.contains(count) {
+                 word = wordsArray[count].description
+            }
+        case "clothes" :
+            if let wordsArray = getStringFrom.getTable(named: "clothes"),
                wordsArray.indices.contains(count) {
                  word = wordsArray[count].description
             }

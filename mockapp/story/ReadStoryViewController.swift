@@ -21,16 +21,15 @@ class ReadStoryViewController: UIViewController {
     
     @IBAction func next(_ sender: Any) {
         count = count + 1
-        if( count != 4) {
+        if( count != 17) {
             
             image.image = UIImage(named: (cellName ?? "") + "pg\(count + 1)")
             storyWords.text = tenSentences[count].description
-            countLabel.text = "Page : " + String(count + 1) + " / 4"
+            countLabel.text = "Page : " + String(count + 1) + " / 17"
         } else {
 
                 update()
-               count = 4
-              //  storyWords.text = "End of Story"
+               count = 17
             let forwardLengthName = StoryLength
                 let jumpToEnd = self.storyboard?.instantiateViewController(withIdentifier: "StoryEndViewController") as! StoryEndViewController
                 jumpToEnd.StoryLength = forwardLengthName
@@ -47,7 +46,7 @@ class ReadStoryViewController: UIViewController {
             count = count - 1
             image.image = UIImage(named: (cellName ?? "") + "pg\(count + 1)")
             storyWords.text = tenSentences[count].description
-            countLabel.text = "Page : " + String(count + 1) + " / 4"
+            countLabel.text = "Page : " + String(count + 1) + " / 17"
         }else {
                 count = 0
         }
@@ -84,10 +83,11 @@ class ReadStoryViewController: UIViewController {
             add ()
             
             print(StoryLength);
-            updateLabelWithSentence()
+          updateLabelWithSentence()
+          //  updateWithSentence()
             
-            storyWords.text = tenSentences.first
-            countLabel.text = "Page : " + String(count + 1) + " / 4"
+            storyWords.text = " "
+          //  countLabel.text = "Page : " + String(count + 1) + " / 12"
             image.image = UIImage(named: (cellName ) + "pg\(count + 1)")
             image.contentMode = .scaleAspectFill
         }
@@ -110,8 +110,8 @@ class ReadStoryViewController: UIViewController {
                     
                    // let storeBool = ShortStory(context: self.context)
                     if line.contains(word) {
-                        // Found the search word, add the next 4 lines to the array
-                        for i in 1...4 {
+                        // Found the search word, add the next 17 lines to the array
+                        for i in 1...17 {
                             if index + i < lines.count {
                                 tenSentences.append(lines[index + i])
                             }
@@ -132,11 +132,14 @@ class ReadStoryViewController: UIViewController {
     
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
+   
+    
     // This FUnction adds the values to the atributes in the core data
-        func add () {
+    func add () {
             let entity = NSEntityDescription.entity(forEntityName: "StoryTitles", in: context)
             let newUser = NSManagedObject(entity: entity!, insertInto: context)
             
+        //print(cellName)
             newUser.setValue(cellName, forKey: "id")
             newUser.setValue(false, forKey: "isUserDone")
             
@@ -177,9 +180,10 @@ class ReadStoryViewController: UIViewController {
         func update(){
             let fetchRequest: NSFetchRequest<NSFetchRequestResult> = NSFetchRequest(entityName: "StoryTitles")
             fetchRequest.predicate = NSPredicate(format: "id = %@", cellName!)
-
+            print("cellName:", cellName)
             do {
                 let result = try context.fetch(fetchRequest)
+               
                 if let user = result.first as? NSManagedObject {
                     user.setValue(true, forKey: "isUserDone")
                     try context.save()
@@ -193,30 +197,43 @@ class ReadStoryViewController: UIViewController {
         }
     
     
+
+    
     func updateLabelWithSentence() {
-         let sentence = tenSentences[count]
-
-         // Set different font sizes for different sentences
-         let fontSize: CGFloat
-         switch StoryLength {
-         case "short":
-             fontSize = 33.0
-         case "moderate":
-             fontSize = 25.0
-         case "long":
-             fontSize = 20.0
-         default:
-             fontSize = 10.0
-         }
-
-         let attributedString = NSAttributedString(
-             string: sentence,
-             attributes: [NSAttributedString.Key.font: UIFont.systemFont(ofSize: fontSize)]
-         )
-
-         storyWords.attributedText = attributedString
-     }
-
-
-
+        print(tenSentences.count)
+        let sentence = tenSentences[count]
+        
+        // Set different font sizes for different sentences
+        var fontSize: CGFloat
+        switch StoryLength {
+        case "short":
+            fontSize = 25.0
+        case "moderate":
+            fontSize = 20.0
+        case "long":
+            fontSize = 15.0
+        default:
+            fontSize = 10.0
+        }
+        
+        // Get the size of the screen
+        let screenSize = UIScreen.main.bounds.size
+        
+        // Calculate a factor based on screen size
+        let screenFactor = min(screenSize.width, screenSize.height) / 375.0 // Assuming a reference width of 375
+        
+        // Adjust font size based on screen size
+        if screenFactor < 1.0 {
+            fontSize *= 0.8 // Reduce font size for smaller screens
+        } else if screenFactor > 1.0 {
+            fontSize *= screenFactor // Increase font size for larger screens
+        }
+        
+        let attributedString = NSAttributedString(
+            string: sentence,
+            attributes: [NSAttributedString.Key.font: UIFont.systemFont(ofSize: fontSize)]
+        )
+        
+        storyWords.attributedText = attributedString
+    }
 }

@@ -55,7 +55,7 @@ class QuizTableViewController: UIViewController,UITableViewDelegate, UITableView
        }
 
        @objc func backButtonTapped() {
-           if let targetViewController = navigationController?.viewControllers.first(where: { $0 is QuizViewController }) {
+           if let targetViewController = navigationController?.viewControllers.first(where: { $0 is ViewController }) {
                navigationController?.popToViewController(targetViewController, animated: true)
            }
         
